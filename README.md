@@ -3,21 +3,22 @@
 _**Aligning stakeholders’ financial interests in the Digital Economy**_
 
 Author: _[Thibauld Favre](https://twitter.com/thibauld)_
+
 Version: _1.2_
+
 Last update: _Oct 17th 2019_
+
 Keywords: _FAIR Securities, Continuous Securities Offering, Decentralized Autonomous Trust, Bonding Curve Smart-Contract, Multitude_
 
-_**Aligning stakeholders’ financial interests in the Digital Economy**_
+_**Rendre congruent les intérêts financiers des parties prenantes dans l'économie numérique**_.
+
 Translator: _[Pascal DUVAL](https://twitter.com/cityofwords)_
+
 Version: _1.0_
+
 Dernière version de la traduction : _Feb 02nd 2022_
 
-Keywords: _FAIR Securities, Continuous Securities Offering, Decentralized Autonomous Trust, Bonding Curve Smart-Contract, Multitude_
-
-
-<h3>Traduction</h3>
-
-Ceci est la traduction d'un papier particulèrement intéressant en sa  
+ 
 
 <h3>Abstract</h3>
 
