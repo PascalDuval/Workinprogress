@@ -3,7 +3,8 @@
 _**Aligning stakeholders’ financial interests in the Digital Economy**_
 
 Author: _[Thibauld Favre](https://twitter.com/thibauld)_
-Translater: _[Pascal DUVAL](https://twitter.com/cityofwords)_
+
+Translator: _[Pascal DUVAL](https://twitter.com/cityofwords)_
 
 Version: _1.2_
 
