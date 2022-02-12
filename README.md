@@ -719,7 +719,7 @@ A _Continuous Organization_ requires the setup of a _Continuous Securities Offer
 
 In the USA for example, it is likely that a CSO can be conducted using the Reg D 4(a)(2) Rule 506(c) exemption. Using this exemption means the _CSO_ is issuing restricted securities which, in most cases, require a 1 year lockup before being transferable. Ask your securities lawyer for legal advice before proceeding.
 
-In some jurisdictions, like France for example, we think the legal framework might be significantly more favorable with _FAIRs_ very likely falling under the new "jeton" category of the recently enacted "Loi Pacte" (which means that a _FAIR_ might not be treated as a security ("instrument financier") in France). Again, ask your preferred securities lawyer before proceeding to any offering.
+Dans certaines juridictions, comme la France par exemple, nous pensons que le cadre juridique pourrait être nettement plus favorable, les _FAIR_ entrant très probablement dans la nouvelle catégorie "jeton" de la "Loi Pacte" récemment promulguée (ce qui signifie qu'un _FAIR_ pourrait ne pas être traité comme un "instrument financier" en France). Encore une fois, demandez à un avocat spécialisé avant de procéder à toute offre.
 
 <h3 id="attacks">Attack vectors</h3>
 
