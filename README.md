@@ -18,13 +18,16 @@ Version: _1.0_
 
 Dernière version de la traduction : _Feb 02nd 2022_
 
- 
+<h3>Note importante</h3>
+
+L'enjeu de cette traduction est de réflechir à la classification juridique de toute tokenomie qui s'appuierait sur un ce jeton appelé, jeton, ici, d'investissement (pour _security token_) conformément à la juridiction américaine où l'on ditingue entre _security token_ et _utility token_.
+
 
 <h3>Abstract</h3>
 
 L'économie numérique a radicalement changé la nature de la relation entre les clients et les entreprises. Les individus d'aujourd'hui sont passés du statut de consommateurs passifs à celui de force essentielle dans la création de valeur, soit par leur travail réel (pensons à Airbnb, Uber, App Store d'Apple, Amazon Marketplace...), soit par leurs données (Facebook, Google...). En exploitant le travail de leurs utilisateurs, les organisations de l'économie numérique ont la possibilité de créer des produits avec des expériences utilisateur personnalisées qui peuvent soutenir des rendements croissants à l'échelle, offrant ainsi aux investisseurs des [retours sur investissement](https://en.wikipedia.org/wiki/Returns_to_scale).
 
-Malheureusement, les organisations d'aujourd'hui n'ont pas de moyen simple et efficace de rendre congruents les intérêts de leurs utilisateurs avec le succès financier de leur organisation. Cela est principalement dû aux lois actuelles sur les valeurs mobilières qui imposent des contraintes et des frictions lorsqu'il s'agit de vendre et de distribuer des jetons de sécurité (dit "security token"), en particulier aux investisseurs "non accrédités".
+Malheureusement, les organisations d'aujourd'hui n'ont pas de moyen simple et efficace de rendre congruents les intérêts de leurs utilisateurs avec le succès financier de leur organisation. Cela est principalement dû aux lois actuelles sur les valeurs mobilières qui imposent des contraintes et des frictions lorsqu'il s'agit de vendre et de distribuer des jetons d'investissement (_security token_), en particulier aux investisseurs "non accrédités".
 
 Pour résoudre ce problème, nous proposons un nouveau paradigme : l' _Enteprise Continue_ (EC), un nouveau type d'entreprise conçu pour rendre congruents les intérêts des parties prenantes de façon bien plus satisfaisante que cela n'est fait dans les sociétés traditionnelles. Une 'entreprise continue est tout type d'entreprise qui met en place une offre de parts continue (OPC) en canalisant une partie ou la totalité de ses revenus réalisés vers un système dit DAT (pour _Decentralized Autonomous Trust_). Un DAT est un smart contract ayant la capacité d'émettre, de racheter et d'annuler automatiquement des actifs entièrement numériques appelés FAIR Securities (FAIRs) pour répondre à la demande du marché, en utilisant des règles prédéfinies.
 
