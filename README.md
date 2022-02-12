@@ -10,7 +10,7 @@ Last update: _Oct 17th 2019_
 
 Keywords: _FAIR Securities, Continuous Securities Offering, Decentralized Autonomous Trust, Bonding Curve Smart-Contract, Multitude_
 
-_**Rendre congruent les intérêts financiers des parties prenantes dans l'économie numérique**_.
+_**Rendre congruents les intérêts financiers des parties prenantes dans l'économie numérique**_.
 
 Translator: _[Pascal DUVAL](https://twitter.com/cityofwords)_
 
