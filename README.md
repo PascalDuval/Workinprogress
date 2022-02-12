@@ -18,9 +18,9 @@ Version: _1.0_
 
 Dernière version de la traduction : _Feb 02nd 2022_
 
-<h3>Note importante</h3>
+<h3>Note importante du traducteur</h3>
 
-L'enjeu de cette traduction est de réflechir à la classification juridique de toute tokenomie qui s'appuierait sur un ce jeton appelé, jeton, ici, d'investissement (pour _security token_) conformément à la juridiction américaine où l'on ditingue entre _security token_ et _utility token_.
+[NDT] L'enjeu de cette traduction est de réflechir à la classification juridique de toute tokenomie qui s'appuierait sur un ce jeton appelé, jeton, ici, d'investissement (pour _security token_) conformément à la juridiction américaine où l'on ditingue entre _security token_ et _utility token_.
 
 
 <h3>Résumé</h3>
