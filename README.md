@@ -301,46 +301,46 @@ Un modèle de courbe de liaison à jetons a des propriétés intéressantes, not
 
 *  **Le _supply_ est illimitée**. Il n'y a pas de limite au nombre de jetons qui peuvent être émis.
 *  **Calcul déterministe du prix**. Les prix d'achat et de vente des jetons augmentent et diminuent en fonction du nombre de jetons émis.
-*  **Liquidité garantie et immédiate**. Le contrat de la courbe de liaison est la contrepartie de la transaction et détient toujours suffisamment d'ETH en réserve pour racheter des jetons. Ainsi, les tokens peuvent être achetés ou vendus instantanément à tout moment, la courbe de liaison agissant comme un _automated market maker (AMM)_.
-*  **Prix différentiel**. Le prix du jeton n étant inférieur au jeton n+1 et supérieur au jeton n-1, calculer le nombre de jetons frappés pour un montant donné d'ETH (ou le nombre d'ETH renvoyés pour un montant donné de jetons) nécessite un certain calcul intégral.  
+*  **Liquidité garantie et immédiate**. Le contrat de la courbe de liaison est la contrepartie de la transaction et détient toujours suffisamment d'ETH en réserve pour racheter des jetons. Ainsi, les jetons peuvent être achetés ou vendus instantanément à tout moment, la courbe de liaison agissant comme un _automated market maker (AMM)_.
+*  **Prix différentiel**. Le prix du jeton n étant inférieur au jeton n+1 et supérieur au jeton n-1, calculer le nombre de jetons émis pour un montant donné d'ETH (ou le nombre d'ETH renvoyés pour un montant donné de jetons) nécessite un certain calcul intégral.  
 [NdT] : le _supply_ est le nombre total de jetons émis (à un moment donné).
 
 Il est important de noter que dans un modèle de courbe de liaison, l'axe des x représente le **nombre de jetons émis** (i.e le _supply_). Pour donner un exemple simple, disons que `B(x)=x` et `S(x)=0`. Le coût `C` pour acheter les 10 premiers jetons est donné par la surface entre la courbe d'achat et la courbe de vente qui peut être exprimée par l'intégrale suivante :
 
-<img src="https://latex.codecogs.com/gif.latex?\int_{0}^{x}(B(x)-S(x))dx" title="Cost C to buy the 1st 10 tokens" />.
+<img src="https://latex.codecogs.com/gif.latex?\int_{0}^{x}(B(x)-S(x))dx" title="Coût C d'achats des 10 premiers jetons" />.
 
-<img src="images/Introducing-Continuous1.png" width="300" title="Coût d'achats des 10 premiers jetons" alt="Coût d'achats des 10 premiers jetons" />
+<img src="images/Introducing-Continuous1.png" width="300" title="Coût d'achats C des 10 premiers jetons" alt="Coût d'achats C des 10 premiers jetons" />
 
-So, in our example: `C=10*10/2=50`.
+Donc, dans notre exemple `C=10*10/2=50`.
 
-<h4 id="dat">The Decentralized Autonomous Trust</h4>
+<h4 id="dat">Contrat de Contributions Autonome Decentralisé (CCAD)</h4>
 
-In the case of _Continuous Organizations_, we introduce the _revenue-based bonding curve_: a bonding curve that uses 2 different functions, one for the buy curve and another for the sell curve: **B** (for **b**uy) and **S** (for **s**ell) with <img src="https://latex.codecogs.com/gif.latex?B(x)>S(x)&space;\forall&space;x&space;\in&space;[0;\infty[" />.
+Dans le cas des _Entreprises continues_, nous introduisons la _courbe de liaison basée sur le revenu_ : une courbe de liaison qui utilise 2 fonctions différentes, une pour la courbe d'achat et une autre pour la courbe de vente : **B** (pour **b**uy - Achat) et **S** (pour **s**ell - Vente) avec <img src="https://latex.codecogs.com/gif.latex?B(x)>S(x)&space;\forall&space;x&space;\in&space ;[0;\infty[" />.
 
 <img src="images/Introducing-Continuous2.png" width="580" title="Buy and Sell curves" alt="Buy and Sell curves" />
 
-The bonding curve contract of a _Decentralized Autonomous Trust_ issues _FAIR Securities_ (_FAIRs_). These _FAIRs_ represent a claim on the _DAT_'s cash reserve. It is important to note that, unlike a stock, a _FAIR_ does not represent a claim on the organization's ownership, it only carries a financial right to the cash reserve managed by the _DAT_. And the _DAT_'s cash reserve is a function of the organization's revenues. So, by buying _FAIRs_, an investor gets a financial exposure on the organization's future revenues.
+Le contrat de courbe d'achat d'une _CCAD_ émet des _FAIR Securities_ (_FAIRs_). Ces _FAIRs_ représentent une créance sur la réserve d'argent de la _CCAD_. Il est important de noter que, contrairement à une action, un _FAIR_ ne représente pas un droit sur la propriété de l'organisation, mais seulement un droit financier sur la réserve d'argent gérée par le _CCAD_. Et la réserve d'argent du _DAT_ est fonction des revenus de l'organisation. Ainsi, en achetant des _FAIR_, un investisseur prend une exposition sur les revenus futurs de l'organisation.   
+   
+La fonction _B_ définit le prix auquel les _FAIRs_ peuvent être achetés à la _CCAD_. _B_ est une fonction linéaire et a une pente positive **_b_** telle que `B(x)=b*x` où <img src="https://latex.codecogs.com/gif.latex?b\in&space;R" /> et `b>0`. La pente _b_ peut être choisie arbitrairement. Plus _b_ est élevée, plus les jetons unitaires auront de valeur, et vice-versa, car plus _b_ est faible, moins les jetons unitaires auront de valeur.
 
-The function _B_ defines the price at which _FAIRs_ can be bought from the _DAT_. _B_ is a linear function and has a positive slope **_b_** such that `B(x)=b*x` where <img src="https://latex.codecogs.com/gif.latex?b\in&space;R" /> and `b>0`. The slope _b_ can be chosen arbitrarily. The higher _b_ is, the more value unit tokens will have, and vice-versa, as the lower _b_ is, the less value unit tokens will have.
+Si vous voulez que vos investisseurs aient beaucoup de jetons, choisissez une très petite valeur pour b (comme 1x10^(-9)). Cela n'a aucun impact financier, permettant simplement plus de granularité.
 
-If you want your investors to have a lot of tokens, pick a very small value for b (like 1x10^(-9)). It has no financial impact, simply allowing more granularity for fractional rights.
+La fonction _S_ définit le prix auquel les _FAIRs_ sont rachetés par le _CCAD_. _S_ est également une fonction linéaire et a une pente **_s_** telle que `S(x)=s*x` où <img src="https://latex.codecogs.com/gif.latex?s\in&space;R" /> et `s>0`. Cependant, dans une _Enteprise Continue,_ la valeur de _s_ change au cours du temps. Pour expliquer comment la valeur de _s_ change au fil du temps, il est important de comprendre comment un _CCAD_ reçoit et traite l'argent qu'il reçoit.   
+ 
+<h5 id="buy">📈 Investissements - acheter()</h5>
 
-The function _S_ defines the price at which _FAIRs_ are bought back by the _DAT_. _S_ is a linear function as well and has a slope **_s_** such that `S(x)=s*x` where <img src="https://latex.codecogs.com/gif.latex?s\in&space;R" /> and `s>0`. However, in a _Continuous Organization,_ the value of _s_ changes over time. To explain how the value of _s_ changes over time, it is important to understand how a _DAT_ receives and processes the cash it receives.
-
-<h5 id="buy">📈 Investments - buy()</h5>
-
-The first (in "time", not in "proportion") source of cash-flows for a _DAT__ are investors who want to invest in the _Continuous Organization_. They do that by calling the `buy()` function of the _DAT_. Whenever an "external" investor (as opposed to the organization itself) sends funds to the _DAT_, a fraction of the funds sent is being held in the cash reserve by the _DAT_ and the rest of the funds are being transferred to the organization's wallet. We'll call **I** (for **i**nvest) the percentage of the funds being held in the cash reserve. **I** is a constant.
+La première source (en "temps", pas en "proportion") de cash-flows pour une _CCAD__ sont les investisseurs qui veulent investir dans l'_Entreprise Continue_. Ils le font en appelant la fonction `buy()`du _DAT_. Lorsqu'un investisseur "externe" (par opposition à l'entreprise elle-même) envoie des fonds à la _DAT_, une fraction des fonds envoyés est conservée dans la réserve d'argent par la _DAT_ et le reste des fonds est transféré dans le portefeuille de l'entreprise. Nous appellerons **I** (pour **i**nvestissement) le pourcentage des fonds conservés dans la réserve d'argent. **I** est une constante.
 
 <img src="images/Introducing-Continuous3.png" width="580" title="Investments - Buy" alt="Investments - Buy" />
 
-_Value flow when an investment occurs_
+_Flux de valeur lors d'un investissement_.
 
-<img src="images/Introducing-Continuous4.png" width="300" title="Investments - Buy - Impact on bonding curve" alt="Investments - Buy - Impact on bonding curve" />
+<img src="images/Introducing-Continuous4.png" width="300" title="Investissements - Acheter - Impact sur la courbe de liaison" alt="Investissements - Acheter - Impact sur la courbe de liaison" />
 
-_Impact on the Bonding Curve Contract of the DAT when an investment occurs_
+_Impact sur le contrat Bonding Curve du DAT lorsqu'un investissement se produit_.
 
-The investors buying _FAIRs_ are doing so to invest money in the underlying organization. Investors don't want their money to be held in reserve by the _DAT_, they want their money to be put to good use by the organization. Consequently, the value of _s_ must be an order of magnitude lower than _b_, which means that **I** should ideally be low. **I** could also be `0` if the organization's characteristics (revenues, growth...) can justify it.
-
+Les investisseurs qui achètent des _FAIR_ le font pour investir de l'argent dans l'organisation sous-jacente. Les investisseurs ne veulent pas que leur argent soit gardé en réserve par le _CCAD_, ils veulent que leur argent soit utilisé à bon escient par l'organisation. Par conséquent, la valeur de _s_ doit être d'un ordre de grandeur inférieur à celle de _b_, ce qui signifie que **I** devrait idéalement être faible. **I** pourrait aussi être `0` si les caractéristiques de l'organisation (revenus, croissance...) peuvent le justifier.
+   
 _Example_: Let's say that an investor sends 10 ETH to the _DAT_, if I=10% then the _DAT_ will transfer 9 ETH to the organization's wallet and will keep 1 ETH in its cash reserve.
 
 The rules described above do not apply if the investor is the beneficiary organization, that is, if the organization is technically _investing in itself_. In that case, **I** is always equal to `100%`. It means that whenever an organization is investing in its _DAT_, 100% of the amount invested by the organization to buy _FAIRs_ goes to the buy-back reserve. For more information, see the <a href="#fairpurchase"><i>FAIRs purchase by the beneficiary organization</i></a> section below.
