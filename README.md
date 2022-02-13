@@ -94,68 +94,68 @@ Il va sans dire que la nature d'investissement des FAIRs (les "titres" FAIR pass
 7. [Conclusion](#conclusion)
 8. [Annex](#annex)
 
-<h3 id="context">Context</h3>
 
-<h4 id="evolution">Organizations have evolved and adapted to the digital economy</h4>
+<h3 id="context">Contexte</h3>
 
-As the world transitions from the industrial age to the digital age, the legal structures that were invented and optimized to address the business needs of the industrial age are now showing their limits. Indeed, the digital economy has pushed organizations to adapt and transform their ways of doing business to such extent that their very nature has now completely changed:
+<h4 id="evolution">Les organisations ont évolué et se sont adaptées à l'économie numérique</h4>
+Alors que le monde passe de l'ère industrielle à l'ère numérique, les structures juridiques qui ont été inventées et optimisées pour répondre aux besoins des entreprises de l'ère industrielle montrent désormais leurs limites. En effet, l'économie numérique a poussé les organisations à s'adapter et à transformer leur façon de faire des affaires à tel point que leur nature même a maintenant complètement changé :
 
 <table>
   <tr>
    <td>
    </td>
    <td>
-       <strong>Industrial Age</strong><br/>
-       <em>think "General Motors"</em>
+       <strong>L'ère industrielle</strong><br/>
+       <em>pensons à "General Motors"</em>
    </td>
    <td>
-       <strong>Digital Age</strong><br/>
-       <em>think "Airbnb"</em>
+       <strong>L'ère numérique</strong><br/>
+       <em>penson à "Airbnb"</em>
    </td>
   </tr>
   <tr>
-   <td><em>Capital intensity</em></td>
-   <td>High 💲💲💲</td>
-   <td>Low 💲</td>
+   <td><em>Intensité du capital </em></td>
+   <td>élevée 💲💲💲</td>
+   <td>faible 💲</td>
   </tr>
   <tr>
-   <td><em>Returns to scale</em></td>
-   <td>Decreasing <strong>↘</strong></td>
-   <td>Increasing <strong>↗</strong></td>
+   <td><em>Rendements d'échelle</em></td>
+   <td>Diminution<strong>↘</strong></td>
+   <td>Augmentation<strong>↗</strong></td>
   </tr>
   <tr>
-   <td><em>Main assets</em></td>
+   <td><em>Principaux actifs</em></td>
    <td>Tangible 🏭</td>
    <td>Intangible 💻</td>
   </tr>
   <tr>
-   <td><em>Size of workforce</em></td>
-   <td>Large 🙋‍🙋‍🙋‍</td>
-   <td>Small 🙋‍</td>
+   <td><em>Taille de la main-d'œuvre</em></td>
+   <td>Grande 🙋‍🙋‍🙋‍</td>
+   <td>Petite 🙋‍</td>
   </tr>
   <tr>
-   <td><em>Location of workforce</em></td>
-   <td>Concentrated 🌆</td>
-   <td>Distributed 🌎</td>
+   <td><em>Localisation de la main-d'œuvre</em></td>
+   <td>Concentrée 🌆</td>
+   <td>Distribuée 🌎</td>
   </tr>
   <tr>
-   <td><em>Type of jobs</em></td>
-   <td>Manual 🔧</td>
-   <td>Intellectual 🧠</td>
+   <td><em>Type d'emplois</em></td>
+   <td>Manuel 🔧</td>
+   <td>Intellectuel 🧠</td>
   </tr>
   <tr>
-   <td><em>Main growth driver</em></td>
-   <td>Cost 💵</td>
-   <td>User experience 👌</td>
+   <td><em>Principal moteur de croissance</em></td>
+   <td> Coût 💵</td>
+   <td>Expérience utilisateur 👌</td>
   </tr>
   <tr>
-   <td><em>Tax contribution</em></td>
-   <td>High 💲💲💲</td>
-   <td>Low 💲</td>
+   <td><em>Contribution fiscale</em></td>
+   <td>Elevée 💲💲💲</td>
+   <td>Faible 💲</td>
   </tr>
 </table>
 
-But despite this massive evolution of organizations, we still use the same type of legal entities to operate our businesses. These legal entities were designed within nation states to address the needs of organizations in the Industrial Age. They are ill-suited in the age of ubiquitous computing and networks, where organizations harness the power of the multitude to achieve increasing returns to scale, blurring the line between users and workers. To illustrate: an Uber driver is at the same time a user of Uber and a worker for Uber. Same goes for the renter of a flat on Airbnb. A Facebook user is also a (unpaid) Facebook worker etc...
+Mais malgré cette évolution massive des entrprises, nous utilisons toujours le même type d'entités juridiques pour les faire fonctionner. Ces entités juridiques ont été conçues au sein des États-nations pour répondre aux besoins des entreprises de l'ère industrielle. Elles sont mal adaptées à l'ère de l'informatique omniprésente et des réseaux, où les organisations exploitent le pouvoir de la multitude pour obtenir des rendements d'échelle croissants, en brouillant la frontière entre utilisateurs et travailleurs. Pour illustrer cela, un chauffeur Uber est à la fois un utilisateur d'Uber et un travailleur pour Uber. Il en va de même pour le locataire d'un appartement sur Airbnb. Un utilisateur de Facebook est aussi un travailleur (non rémunéré) de Facebook etc...
 
 <h4 id="multituderise">The rise of the multitude</h4>
 
