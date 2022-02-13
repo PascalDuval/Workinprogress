@@ -157,47 +157,55 @@ Alors que le monde passe de l'ère industrielle à l'ère numérique, les struct
 
 Mais malgré cette évolution massive des entrprises, nous utilisons toujours le même type d'entités juridiques pour les faire fonctionner. Ces entités juridiques ont été conçues au sein des États-nations pour répondre aux besoins des entreprises de l'ère industrielle. Elles sont mal adaptées à l'ère de l'informatique omniprésente et des réseaux, où les organisations exploitent le pouvoir de la multitude pour obtenir des rendements d'échelle croissants, en brouillant la frontière entre utilisateurs et travailleurs. Pour illustrer cela, un chauffeur Uber est à la fois un utilisateur d'Uber et un travailleur pour Uber. Il en va de même pour le locataire d'un appartement sur Airbnb. Un utilisateur de Facebook est aussi un travailleur (non rémunéré) de Facebook etc...
 
-<h4 id="multituderise">The rise of the multitude</h4>
+<h4 id="multituderise">La montée de la multitude</h4>
 
-[Nicolas Colin](https://www.ft.com/stream/3fd492f4-09b7-3f07-a744-b322b5bd015c), a colleague of mine at [The Family](https://thefamily.co/), succintly described the situation in his book "[Hedge](https://www.amazon.com/Hedge-Greater-Safety-Net-Entrepreneurial/dp/1718917082/)":
+[Nicolas Colin](https://www.ft.com/stream/3fd492f4-09b7-3f07-a744-b322b5bd015c), un de mes collègues à [The Family](https://thefamily.co/), a brièvement décrit la situation dans son livre [Hedge](https://www.amazon.com/Hedge-Greater-Safety-Net-Entrepreneurial/dp/1718917082/)":
 
-> _"The key to understanding the digital economy is that it redistributes power from inside to the outside of organizations. A corollary to this law is that the businesses that succeed in the digital economy are the ones that realize how power has been redistributed outside of their organizations and learn to harness it anyway to fuel growth and profits."_
+> _"La clé pour comprendre l'économie numérique est qu'elle redistribue le pouvoir de l'intérieur vers l'extérieur des organisations. Un corollaire de cette loi est que les entreprises qui réussissent dans l'économie numérique sont celles qui réalisent comment le pouvoir a été déporté à l'extérieur de leur organisation et apprennent à l'exploiter pour alimenter la croissance et les profits."_
 
-To define the nature of this power, Nicolas Colin defined the concept of _multitude_ in a [previous book](https://www.amazon.com/gp/product/B00XDVC5X8/ref=dbs_a_def_rwt_bibl_vppi_i2) co-authored with Henri Verdier:
+Pour définir la nature de ce pouvoir, Nicolas Colin a défini le concept de _multitude_ dans [un précédent ouvrage](https://www.amazon.com/gp/product/B00XDVC5X8/ref=dbs_a_def_rwt_bibl_vppi_i2) coécrit avec Henri Verdier :
 
-> _"The multitude is defined as the billions of individuals that are now equipped with increasingly powerful devices and connected with one another through wide networks."_
+> _"La multitude se définit comme les milliards d'individus qui sont désormais équipés d'appareils de plus en plus puissants et connectés entre eux par de larges réseaux."_
 
-In the digital economy, organizations rely on the multitude (i.e., "Uber drivers", "Airbnb hosts", "Apple App Store developers", "Facebook users"...) to thrive as a business yet the multitude has no vested financial interest in the wealth it contributes to creating at the organization level. Instead, the multitude enters the "gig economy", defined by part-time jobs paid upon successful completion of a service. These jobs, which used to be very rare during the Industrial Age, are now becoming increasingly common.
+Dans l'économie numérique, les organisations s'appuient sur la multitude (c'est-à-dire les " chauffeurs Uber ", les " hôtes Airbnb ", les " développeurs de l'App Store d'Apple ", les " utilisateurs de Facebook "...) pour prospérer en tant qu'entreprise ; pourtant, la multitude n'a aucun intérêt financier direct dans la richesse qu'elle contribue à créer au niveau de l'organisation. Au lieu de cela, la multitude entre dans la "gig economy", définie par des emplois à temps partiel payés à la tâche. Ces emplois, qui étaient très rares à l'ère industrielle, sont aujourd'hui de plus en plus courants.
 
-<h4 id="challenges">New challenges</h4>
 
-The radical transformation of organizations in the digital economy has created important challenges for all stakeholders that must be addressed:
+    "Comment puis-je créer une relation de confiance durable avec ma communauté ?"
 
-<h5 id="founders">🏃🏽‍For founders</h5>
 
-> _"How can I incentivize my community to promote the long-term success of my organization?"_
+<h4 id="challenges">Nouveaux défis</h4>
 
-**Money**. As the multitude has become an essential part of the organization's workforce in the digital economy, founders need new mechanisms to attract, retain and empower a diverse and global community. Many marketing tactics already exist but none of them allow for a lasting, solid alignment of interests between the organization and its community. The real solution, which would be to sell and/or distribute securities to the multitude is so legally complex under current security laws that it is not a realistic option.
+La transformation radicale des organisations dans l'économie numérique a créé des défis importants pour toutes les parties prenantes, qu'il faut relever :
 
-> _"Airbnb is a community-based company and we would be nothing without our hosts. We would like our most loyal hosts to be shareholders, but need these policies to change in order to make that happen."_
 
-The above quote is from Brian Chesky, CEO of Airbnb, in a statement about a [comment letter Airbnb addressed to the SEC](https://www.axios.com/airbnb-asks-sec-to-let-it-give-hosts-equity-a7d99495-0782-4bce-92bb-4c692ef1b621.html). 
+<h5 id="founders">🏃🏃🏽Pour les fondateurs</h5>
 
-> _"How can I create a long lasting trust relationship with my community?"_
+> _"Comment puis-je inciter ma communauté à promouvoir le succès à long terme de mon entreprise ?"_
 
-**Trust**. To forge a lasting and solid alliance with the multitude, organizations need to earn the trust of the multitude. However, as more and more people understand how the VC financial model works, it is becoming harder and harder for VC-backed organizations to gain the trust of their community. Indeed, VCs' interests are only aligned with those of the organization until investors need liquidity. When investors demand liquidity, the alignment of interests suddenly focus on the very short term, wanting to sell their shares at the best price possible. In [most cases](https://avc.com/2016/11/founder-dilution/), founders got heavily diluted and have lost control of the organization, and so there is not very much they can do to create a different outcome.
+**L'argent**. La multitude étant devenue une partie essentielle de la main-d'œuvre de l'organisation dans l'économie numérique, les fondateurs ont besoin de nouveaux mécanismes pour attirer, retenir et responsabiliser une communauté diverse et mondiale. De nombreuses tactiques de marketing existent déjà, mais aucune ne permet une congrurence durable et solide des intérêts entre l'entreprise et sa communauté. La véritable solution, qui consisterait à vendre et/ou à distribuer des titres à la multitude est tellement complexe sur le plan juridique en vertu des lois actuelles sur les valeurs mobilières que cela ne semble pas une option réaliste.
 
-<h5 id="employees">👩‍💻For employees</h5>
 
-> "_I want a financial reward proportional to the risk I took and the value I created._"
+> _"Airbnb est une entreprise communautaire et nous ne serions rien sans nos hôtes. Nous aimerions que nos hôtes les plus fidèles soient des actionnaires, mais il faut que ces politiques changent pour que cela se produise."_
 
-**Fair value creation capture**. Unlike investors whose investments are diversified across a portfolio of organizations, employees are not diversified and only derive revenues from the organization they work for. Many schemes exists to align employees' interests with the financial success of the organization, but most of them consist in providing illiquid and alienable conditioned securities or options on securities. The lack of liquidity in private organizations very often means that employees are forced to leave a lot of value (that they contributed to creating) on the table when they leave the organization. 
+La citation ci-dessus provient de Brian Chesky, PDG d'Airbnb, dans une [lettre qu'Airbnb a adressée à la SEC.](https://www.axios.com/airbnb-asks-sec-to-let-it-give-hosts-equity-a7d99495-0782-4bce-92bb-4c692ef1b621.html). 
 
-<h5 id="multitude">🙋🏻‍For the multitude</h5>
+> _"Comment puis-je créer une relation de confiance durable avec ma communauté ?"_
 
-> _"I wish I could be financially rewarded by this organization that I contribute to."_
+**Confiance**. Pour forger une alliance durable et solide avec la multitude, les organisations doivent gagner la confiance de cette dernière. Cependant, comme de plus en plus de personnes comprennent le fonctionnement du modèle financier du capital-risque, il devient de plus en plus difficile pour les organisations soutenues par le capital-risque de gagner la confiance de leur communauté. En effet, les intérêts des  capital-risqueurs ne sont congruents à ceux de l'entreprise qu'aussi longtemps que les investisseurs n'ont pas besoin de liquidités. Et lorsque les investisseurs demandent des liquidités, les intérêts convergent effectivement mais uniquement sur un très court terme, dans la hâte de vendre des parts au meilleur prix possible. Dans [la plupart des cas](https://avc.com/2016/11/founder-dilution/), les fondateurs ont été fortement dilués et ont perdu le contrôle de l'entreprise, et il n'y a donc pas grand-chose à faire.
 
-**Long-term wealth-building & economic security**. When a community (be they users, workers, partners, suppliers, customers...) fall in love with the product or service provided by an organization, they wish they could have the possibility of being financially rewarded for their active contributions to the product and building long-term wealth as they help the organization grow. One-off referrals, coupons and goodies can only do so much… people want money! This is especially true in today's context where well-paid jobs with pensions and 401ks are becoming [the exception](https://www.wsj.com/articles/the-end-of-employees-1486050443?mod=djmc_pkt_ff&tier_1=21128300&tier_2=dcm&tier_3=21128300&tier_4=0&tier_5=4508749).
+
+<h5 id="employees">👩‍💻Pour les employés</h5>
+
+> "_Je veux une récompense financière proportionnelle au risque que j'ai pris et à la valeur que j'ai créée._"
+
+**Capture équitable de la création de valeur**. Contrairement aux investisseurs dont les placements sont diversifiés sur un portefeuille de sociétés, ceux des salariés ne le sont pas et ne tirent leurs revenus que de la société pour laquelle ils travaillent. Il existe de nombreuses manières de rendre congruents les intérêts des salariés et le succès financier de l'entreprise, mais la plupart d'entre eux consistent à fournir des titres ou équivalents (sous condition) illiquides et aliénables. Le manque de liquidité des entreprises privées signifie très souvent que les employés sont contraints de laisser sur la table une grande partie de la valeur (qu'ils ont contribué à créer) lorsqu'ils quittent la société.
+
+ 
+<h5 id="multitude">🙋🏻‍Pour la multitude</h5>
+
+> _"J'aimerais pouvoir être récompensé financièrement par cette société à laquelle je contribue"_
+
+**Création de richesse à long terme & réalisme économique**. Lorsqu'une communauté (qu'il s'agisse d'utilisateurs, de travailleurs, de partenaires, de fournisseurs, de clients...) tombe amoureuse du produit ou du service fourni par une organisation, elle souhaite avoir la possibilité d'être récompensée financièrement pour ses contributions actives au produit et de construire une richesse à long terme en aidant l'entreprise à se développer. Les "One-off referrals"[NDT : ?], les coupons et les cadeaux ne peuvent pas tout faire... les gens veulent de l'argent ! Cela est particulièrement vrai dans le contexte actuel où les emplois bien rémunérés avec des "pensions and 401ks"[NDT : ?]  deviennent [l'exception](https://www.wsj.com/articles/the-end-of-employees-1486050443?mod=djmc_pkt_ff&tier_1=21128300&tier_2=dcm&tier_3=21128300&tier_4=0&tier_5=4508749).
 
 <h5 id="investors">👩🏿‍💼For investors</h5>
 
