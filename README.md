@@ -36,7 +36,7 @@ Malheureusement, les organisations d'aujourd'hui n'ont pas de moyen simple et ef
 
 Pour résoudre ce problème, nous proposons un nouveau paradigme : l' _Enteprise Continue_ (EC), un nouveau type d'entreprise conçu pour rendre congruents les intérêts des parties prenantes de façon bien plus satisfaisante que cela n'est fait dans les entreprises traditionnelles. Une Entreprise Continue est tout type d'entreprise qui met en place une Offre Continue de Contributions (OCC) en canalisant une partie ou la totalité de ses revenus réalisés vers un système dit CCAD (pour _Contrat de Contributions Autonome Decentralisé_). Un CCAD est un _smart contract_ ayant la capacité d'émettre, de racheter et d'annuler automatiquement des actifs entièrement numériques appelés _FAIR Securities (FAIRs)_ pour répondre à la demande du marché, en utilisant des règles prédéfinies.
 
-[NDT] _Continuous Organizations (CO)_  ->   _Enteprise Continue_; _Continuous_Securities_Offering (CSO)_ ->  _Offre Continue de Contributions (OCC)_ ;  _Decentralized Autonomous Trust (DAT)_ -> _Contrat de Contributions Autonome Decentralisé (CCAD)_ ; _FAIR Securities (FAIRs)_ n'est pas traduit : il insiste sur l'aspect financier et comprend l'idée d'une partition équitable. Mais partition de quoi ? Comme il est dit plus loin ces Fairs ne sont pas des actions. "Ces FAIRs représentent une créance sur la réserve d'argent du CCAD. Il est important de noter que, contrairement à une action, un FAIR ne représente pas un droit sur la propriété de l'entreprise bénéficiaire, mais seulement un certain droit financier sur la réserve de trésorerie gérée par le CCAD. Or, cette réserve est fonction des revenus de l'entreprise. Ainsi, en achetant des FAIR, un investisseur obtient une exposition financière sur les revenus futurs de l'entreprise". _Organization_ est traduit la plupart du temps par _Entreprise_ au risque de perdre la nature organique d'un processus mais c'est au bénéfice d'un certain esprit d'aventure. _Stake_Holders_ aurait pû être traduit par _Contributeurs_ plutôt que par _Partie Prenantes_. Tout un vocabulaire doit être réinventé.    
+[NDT] _Continuous Organizations (CO)_  ->   _Entreprise Continue_; _Continuous_Securities_Offering (CSO)_ ->  _Offre Continue de Contributions (OCC)_ ;  _Decentralized Autonomous Trust (DAT)_ -> _Contrat de Contributions Autonome Decentralisé (CCAD)_ ; _FAIR Securities (FAIRs)_ n'est pas traduit : il insiste sur l'aspect financier et comprend l'idée d'une partition équitable. Mais partition de quoi ? Comme il est dit plus loin ces Fairs ne sont pas des actions. "Ces FAIRs représentent une créance sur la réserve d'argent du CCAD. Il est important de noter que, contrairement à une action, un FAIR ne représente pas un droit sur la propriété de l'entreprise bénéficiaire, mais seulement un certain droit financier sur la réserve de trésorerie gérée par le CCAD. Or, cette réserve est fonction des revenus de l'entreprise. Ainsi, en achetant des FAIR, un investisseur obtient une exposition financière sur les revenus futurs de l'entreprise". _Organization_ est traduit la plupart du temps par _Entreprise_ au risque de perdre la nature organique d'un processus mais c'est au bénéfice d'un certain esprit d'aventure. _Stake_Holders_ aurait pû être traduit par _Contributeurs_ plutôt que par _Partie Prenantes_. Tout un vocabulaire doit être réinventé.    
 
 
 Les _Entreprises Continues_ présentent des propriétés intéressantes pour toutes les parties prenantes :
@@ -255,58 +255,61 @@ De fait, dans la plupart des projets, le risque associé à l'investissement dan
 1.  _Le produit peut-il être créé dans le délai proposé ?_ De nombreux projets sous-estiment massivement les contraintes techniques importantes que pose l'intégration d'une blockchain avec jeton, dans leur système.
 1.  _Le produit peut-il offrir une bonne expérience utilisateur ?_ La plupart des projets sous-estiment complètement les contraintes UX posées par l'intégration d'un jeton dans leur système.
 1.  _Si le produit est livré, sera-t-il utilisé  _ Il est difficile de savoir si l'équipe parviendra à une adéquation produit/marché.
-1.  _ Si les utilisateurs aiment le produit, le jeton aura-t-il une quelconque valeur ?_ Le projet pourrait connaître un succès retentissant, et cependant le jeton n'ant aucune aoir aucune valeur, car il ne s'agit pas d'un titre.
-1.  _If the token has value, will it be a good investment?_ Most projects sell their tokens at what is already a very high valuation.
+1.  _ Si les utilisateurs aiment le produit, le jeton aura-t-il une quelconque valeur ?_ Le projet pourrait connaître un succès retentissant, et cependant le jeton n'ayant aucune aucune valeur, car il ne s'agit pas d'un titre.
+1.  _Si le jeton a de la valeur, sera-t-il un bon investissement ?_ La plupart des projets vendent leurs jetons à une valeur déjà très élevée..
 
-Given the above, it is expected that most projects will fail and are [bad](https://www.ccn.com/icos-raise-8-3-billion-last-quarter-and-most-of-them-were-abject-failures) [investments](https://docs.google.com/spreadsheets/d/1ioxvJgJiZui9ZD1nud2oLpClYCFcnzvgvMucI56uy-g/edit#gid=1772156349). Even worse, a project can be very successful yet the token has no value. This creates two important problems:
+Compte tenu de ce qui précède, on peut s'attendre à ce que la plupart des projets échouent et soient de [mauvais] (https://www.ccn.com/icos-raise-8-3-billion-last-quarter-and-most-of-them-were-abject-failures) [investissements] (https://docs.google.com/spreadsheets/d/1ioxvJgJiZui9ZD1nud2oLpClYCFcnzvgvMucI56uy-g/edit#gid=1772156349). Pire encore, un projet peut être très réussi alors que le jeton n'a aucune valeur. Cela crée deux problèmes importants :
 
-1.  **Retail investors get scammed** due the way the [_Shitcoin Waterfall_](https://soundcloud.com/unchainedpodcast/meltem-demirors-and-jill#t=51:03) works in ICOs
-2.  **Regulators don't know how to handle ICOs**. On the one hand, they welcome innovations that attract talent and investors; but on the other hand, they don't like it when retail investors get scammed.
+1.  **Les investisseurs particuliers se font arnaquer** en raison de la façon dont la [_Shitcoin Waterfall_] (https://soundcloud.com/unchainedpodcast/meltem-demirors-and-jill#t=51:03) fonctionne dans les ICO.
+2.  **Les régulateurs ne savent pas comment gérer les ICOs. D'un côté, ils saluent les innovations qui attirent les talents et les investisseurs, mais d'un autre côté, ils n'aiment pas que les petits investisseurs se fassent arnaquer.
 
-<h5 id="theugly">💩The Ugly</h5>
 
-At the time of writing this paper (September 2018), it has been now established that, unless an ICO takes place within the context of a reputable platform (i.e. CoinList, which is very selective or, to a lesser degree, TokenFoundry...), odds are that the ICO is a scam and you should be very cautious before investing. Indeed, due to the legal uncertainty around ICOs, the most promising projects now raise money privately and only use ICOs (or pure Airdrops) as a way to boost their community-building efforts.
+<h5 id="theugly">💩Le détestable</h5>
 
-It is sad to see that many of the ICOs on the market are scams. In the best case scenario, they are promoted by well-intentioned founders who mistook an ICO for a Series A fundraising round. In the worst-case scenario, these ICOs are simply engineered by scammers trying to abuse unsophisticated investors to get rich quick. Needless to say that, in this context, it is hard not to see the ICO market for utility tokens [dying off](https://coincentral.com/multibillion-dollar-ico-market-down/).
+Au moment de la rédaction de cet article (septembre 2018), il est désormais établi que, à moins qu'une ICO ne se déroule dans le cadre d'une plateforme réputée (c'est-à-dire CoinList, qui est très sélective ou, à un moindre degré, TokenFoundry...), il y a de fortes chances que l'ICO soit une arnaque et qu'il faille être très prudent avant d'investir. En effet, en raison de l'incertitude juridique qui entoure les ICO, les projets les plus prometteurs lèvent désormais des fonds de manière privée et n'utilisent les ICO (ou les Airdrops purs) que comme un moyen de stimuler leurs efforts de développement communautaire.
 
-More recently, crypto exchanges started doing "IEOs" (Initial Exchange Offerings) which are just ICOs performed directly by the exchange. Unsurprisingly, the results are [the same](https://www.theblockcrypto.com/genesis/43347/ieos-are-finished-nearly-90-have-lost-more-than-half-of-value-since-their-all-time-high).
+Il est triste de constater que de nombreuses ICOs sur le marché sont des arnaques. Dans le meilleur des cas, elles sont promues par des fondateurs bien intentionnés qui ont confondu une ICO avec une super levée de fonds. Dans le pire des cas, ces ICO sont simplement conçues par des escrocs qui tentent d'abuser d'investisseurs peu avertis pour s'enrichir rapidement. Inutile de dire que, dans ce contexte, il est difficile de ne pas voir le marché des ICO pour les jetons utilitaires [s'éteindre] (https://coincentral.com/multibillion-dollar-ico-market-down/).
 
-<h3 id="continuousorganizations">Continuous Organizations</h3>
+Plus récemment, les bourses de crypto-monnaies ont commencé à faire des "IEOs" (Initial Exchange Offerings) qui sont juste des ICOs réalisées directement par la bourse. Sans surprise, les résultats sont [les mêmes] (https://www.theblockcrypto.com/genesis/43347/ieos-are-finished-nearly-90-have-lost-more-than-half-of-value-since-their-all-time-high).
 
-A _Continuous Organization_ refers to any organization that set up a _Continuous Securities Offering_ (_CSO_) to give to every stakeholder the ability to invest in the organization at any single time.
+<h3 id="continuousorganizations">Entreprise Continue</h3>
+   
+Une _Entreprise Continue_ désigne toute organisation qui a mis en place une  _Offre Continue de Contributions (OCC)_  pour donner à chaque partie prenante la possibilité d'investir dans l'entreprise à tout moment.
+   
+<h4 id="cso">Offre Continue de Contributions (OCC)</h4>
 
-<h4 id="cso">Continuous Securities Offering (CSO)</h4>
+_Offre Continue de Contributions (OCC)_ est un nouveau moyen pour les organisations de recevoir des financements sans libérer de capitaux ou de droits de gouvernance. Une OCC utilise les revenus réalisés par une entreprise (c'est-à-dire les revenus pour lesquels un paiement a été effectué) comme garantie pour soutenir des titres entièrement numériques (appelés _FAIR Securities_ ou _FAIRs_) que tout le monde peut acheter ou vendre en spéculant sur les revenus futurs de cette société.
 
-A _Continuous Securities Offering_ (_CSO_) is a novel way for organizations to receive financing without releasing any equity or any governance rights. A CSO uses an organization's realized revenues (i.e. revenues for which a payment has been made) as a collateral to back fully digital securities (called _FAIR Securities_ or _FAIRs_) that anyone can buy or sell to speculate on the organization's future revenues.
+Pour créer une _Offre de Contributions continue_, une entreprise accepte de constituer une garantie de valeur en utilisant un pourcentage fixe de ses revenus réalisés pendant une période minimale prédéfinie. Cela se fait concrètement en versant ce pourcentage fixe de revenus dans _un_Contrat de Contributions Autonome Decentralisé (CCAD)_. Un _CCAD_ est un smart contract qui émet et rachète automatiquement des _FAIR_ pour répondre à la demande du marché des investisseurs en utilisant un jeton qui suit [une courbe de liaison](https://medium.com/@justingoro/token-bonding-curves-explained-7a9332198e0e) avec [sponsored burning](https://medium.com/@avsa/sponsored-burning-for-tcr-c0ab08eef9d4). 
 
-To create a _Continuous Securities Offering_, an organization would agree to build a collateral of value using a fixed percentage of its realized revenues during a pre-defined minimum period of time. This is done concretely by funneling the said fixed percentage of revenues into a _Decentralized Autonomous Trust_ (_DAT_). A _DAT_ is a smart-contract that automatically issues and buy back _FAIRs_ to meet market demand from investors using a token [bonding curve contract](https://medium.com/@justingoro/token-bonding-curves-explained-7a9332198e0e) with [sponsored burning](https://medium.com/@avsa/sponsored-burning-for-tcr-c0ab08eef9d4).
+**Remarque importante concernant la monnaie utilisée pour interagir avec un CCAD**
 
-**Important note about the currency used to interact with a DAT**
+Dans les exemples suivants, nous utilisons ETH (la monnaie de la blockchain Ethereum) comme monnaie pour interagir avec le CCAD. ETH est la monnaie native d'un CCAD de type Ethereum. Cela ne signifie pas que les utilisateurs finaux (individus et entreprises) devront nécessairement manipuler l'ETH pour interagir avec le CCAD. l'ETH peut être remplacé par une monnaie stable (comme [DAI](https://makerdao.com/dai/) ou [USDC](https://www.centre.io/usdc)) pour supprimer la volatilité associée à l'ETH.
 
-In the following examples, we are using ETH (the currency of the Ethereum blockchain) as the currency to interact with the DAT. ETH is the native currency for an Ethereum-based DAT. It does not mean that end users (individuals and organizations) will necessarily have to manipulate ETH to interact with DATs. First, ETH can be replaced by a stablecoin (like [DAI](https://makerdao.com/dai/) or [USDC](https://www.centre.io/usdc)) to remove the volatility associated with ETH.
 
-<h4 id="bondingcurve">Understanding the token bonding curve model</h4>
+<h4 id="bondingcurve">Comprendre le modèle de courbe de liaison</h4>
 
-Many individuals have explored [the](https://blog.oceanprotocol.com/introducing-the-equilibrium-bonding-market-e7db528e0eff) [bonding](https://tokeneconomy.co/token-bonding-curves-in-practice-3eb904720cb8) [curve](https://medium.com/@hayeah/code-analysis-of-fomo3d-pricing-and-dividends-6fb267bbf3a7) [model](https://medium.com/thoughtchains/on-single-bonding-curves-for-continuous-token-models-a167f5ffef89) since [Simon De La Rouvière](https://twitter.com/simondlr) first came up with [the idea](https://medium.com/@simondlr/tokens-2-0-curved-token-bonding-in-curation-markets-1764a2e0bee5) in 2017.
+De nombreuses personnes ont exploré le modèle de la courbe de liaison depuis que Simon De La Rouvière [Simon De La Rouvière](https://twitter.com/simondlr) en a eu [l'idée](https://medium.com/@simondlr/tokens-2-0-curved-token-bonding-in-curation-markets-1764a2e0bee5) en 2017.
 
-A _bonding curve contract_ is a specific type of smart-contract that issues its own tokens through **B**uy and **S**ell functions. To buy tokens, the buyer sends ETH to the Buy function which calculates the average price of the token in ETH and issues you the correct amount. The Sell function works in reverse: The contract will calculate the current average selling price and will send you the correct amount of ETH (excerpt taken from [Token Bonding Curves Explained](https://medium.com/@justingoro/token-bonding-curves-explained-7a9332198e0e)).
+Un contrat de courbe  est un type spécifique de smart-contract qui émet ses propres tokens par le biais des fonctions Buy (Achat) et Sell (Vente). Pour acheter des jetons, l'acheteur envoie des ETH à la fonction Buy qui calcule le prix moyen du token en ETH et délivre le nombre correct de jetons. La fonction de vente fonctionne à l'inverse : Le contrat calcule le prix moyen actuel de vente et envoie le montant correct d'ETH correspondant (extrait tiré de Token Bonding Curves Explained).
 
-In the case of _Continuous Organizations_, the Buy and Sell functions are distinct:
+ Dans le cas des organisations continues, les fonctions d'achat et de vente sont distinctes :
 
 <img src="images/Introducing-Continuous0.png" width="580" title="The Bonding Curves of a Continuous Organization" alt="The Bonding Curves of a Continuous Organization" />
 
-A token bonding curve model has interesting properties, including:
+Un modèle de courbe de liaison à jetons a des propriétés intéressantes, notamment :
 
-*   **Limitless supply**. There is no limit to the number of tokens that can be minted.
-*   **Deterministic price calculation**. The buy and sell prices of tokens increase and decrease with the number of tokens minted.
-*   **Guaranteed and immediate liquidity**. The bonding curve contract is the counterparty of the transaction and always holds enough ETH in reserve to buy tokens back. So tokens can be bought or sold instantaneously at any time, the bonding curve acting as an automated market maker.
-*   **Continuous price**. The price of token n being inferior to the token n+1 and superior to the token n-1, calculating the number of tokens minted for a given amount of ETH (or the number of ETH sent back for a given amount tokens) requires some integral calculus.
+*  **Le _supply_ est illimitée**. Il n'y a pas de limite au nombre de jetons qui peuvent être émis.
+*  **Calcul déterministe du prix**. Les prix d'achat et de vente des jetons augmentent et diminuent en fonction du nombre de jetons émis.
+*  **Liquidité garantie et immédiate**. Le contrat de la courbe de liaison est la contrepartie de la transaction et détient toujours suffisamment d'ETH en réserve pour racheter des jetons. Ainsi, les tokens peuvent être achetés ou vendus instantanément à tout moment, la courbe de liaison agissant comme un _automated market maker (AMM)_.
+*  **Prix différentiel**. Le prix du jeton n étant inférieur au jeton n+1 et supérieur au jeton n-1, calculer le nombre de jetons frappés pour un montant donné d'ETH (ou le nombre d'ETH renvoyés pour un montant donné de jetons) nécessite un certain calcul intégral.  
+[NdT] : le _supply_ est le nombre total de jetons émis (à un moment donné).
 
-It is important to note that in a bonding curve model, the x-axis represents the **number of tokens issued**. To give a simple example, let's say `B(x)=x` and `S(x)=0`. The cost `C` to buy the first 10 tokens is given by the surface between the buy curve and the sell curve that can be expressed as the following integral:
+Il est important de noter que dans un modèle de courbe de liaison, l'axe des x représente le **nombre de jetons émis** (i.e le _supply_). Pour donner un exemple simple, disons que `B(x)=x` et `S(x)=0`. Le coût `C` pour acheter les 10 premiers jetons est donné par la surface entre la courbe d'achat et la courbe de vente qui peut être exprimée par l'intégrale suivante :
 
 <img src="https://latex.codecogs.com/gif.latex?\int_{0}^{x}(B(x)-S(x))dx" title="Cost C to buy the 1st 10 tokens" />.
 
-<img src="images/Introducing-Continuous1.png" width="300" title="Cost C to buy the 1st 10 tokens" alt="Cost C to buy the 1st 10 tokens" />
+<img src="images/Introducing-Continuous1.png" width="300" title="Coût d'achats des 10 premiers jetons" alt="Coût d'achats des 10 premiers jetons" />
 
 So, in our example: `C=10*10/2=50`.
 
