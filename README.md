@@ -244,7 +244,7 @@ Le bon côté des ICO est que, en apparence, elles semblent assez bien rendre co
 
 Le problème de ce modèle est qu'il ne fonctionne que si le jeton a effectivement de la valeur... malheureusement, c'est rarement le cas !
 
-<h5 id="thebad">👎Le mauvais côté/h5>
+<h5 id="thebad">👎Le mauvais côté</h5>
 
 Le problème est qu'il est très difficile pour l'investisseur non averti (et aussi pour les investisseurs dits " avertis " !) d'évaluer si les tokens auront une quelconque valeur. Par conséquent, de nombreux investisseurs particuliers, attirés par les rendements exceptionnels d'une poignée de projets bien ficelés, se sont brûlés les ailes.
 
