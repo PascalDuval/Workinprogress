@@ -20,7 +20,12 @@ Dernière version de la traduction : _Feb 02nd 2022_
 
 <h3>Note importante du traducteur</h3>
 
-[NDT] L'enjeu de cette traduction est de réflechir à la classification juridique de toute tokenomie qui s'appuierait sur un ce jeton appelé, jeton, ici, d'investissement (pour _security token_) conformément à la juridiction américaine où l'on ditingue entre _security token_ et _utility token_.
+[NDT] L'enjeu de cette traduction est d'apporter des éléments au problème de la classification juridique de toute tokenomie qui s'appuierait sur un jeton appelé, dans ce papier, _security token_ (conformément à la juridiction anglo-saxonne où l'on ditingue entre _security token_ et _utility token_) mais que l'on traduira par "jeton de contribution". La FINMA, par exemple qui est l'autorité suisse en ce domaine (cf. [article de Hubert Vauplane](https://www.kramerlevin.com/images/content/4/0/v2/40091/1806-RTDF-1-Vauplane-Hubert-de-Qu-est-ce-qu-un-token-utilitaire.pdf) distingue trois catégories de jetons  :
+* **Les jetons de paiement** (assimilables à une cryptomonnaie) qui ne sont pas liés à d'autres fonctionnalités ni projets. 
+* **Les jetons utilitaires** qui donnent accès à un usage ou à des services numériques.
+* **Les jetons d'investissement** qui représentent des valeurs patrimoniales dans des actifs, des entreprises, des revenus ou un droit à des dividendes ou des intérêts.
+
+En pratique la FINMA classifie dans jetons d'investissement, beaucoup de jetons utilitaires au motif que souvent des ICO sont lancées pour créer la plateforme de vente de biens et de services qui, certes, repose sur ce jeton, mais où ceux-ci n'existe pas encore... Le raisonnement se tient. Toutefois, il ne tient pas compte pas du virage de l'économie numérique vers une économie contributive où toutes les parties prenantes seraient congruentes. 
 
 
 <h3>Résumé</h3>
@@ -29,7 +34,9 @@ L'économie numérique a radicalement changé la nature de la relation entre les
 
 Malheureusement, les organisations d'aujourd'hui n'ont pas de moyen simple et efficace de rendre congruents les intérêts de leurs utilisateurs avec le succès financier de leur organisation. Cela est principalement dû aux lois actuelles sur les valeurs mobilières qui imposent des contraintes et des frictions lorsqu'il s'agit de vendre et de distribuer des jetons d'investissement (_security token_), en particulier aux investisseurs "non accrédités".
 
-Pour résoudre ce problème, nous proposons un nouveau paradigme : l' _Enteprise Continue_ (EC), un nouveau type d'entreprise conçu pour rendre congruents les intérêts des parties prenantes de façon bien plus satisfaisante que cela n'est fait dans les sociétés traditionnelles. Une 'entreprise continue est tout type d'entreprise qui met en place une offre de parts continue (OPC) en canalisant une partie ou la totalité de ses revenus réalisés vers un système dit DAT (pour _Decentralized Autonomous Trust_). Un DAT est un smart contract ayant la capacité d'émettre, de racheter et d'annuler automatiquement des actifs entièrement numériques appelés FAIR Securities (FAIRs) pour répondre à la demande du marché, en utilisant des règles prédéfinies.
+Pour résoudre ce problème, nous proposons un nouveau paradigme : l' _Enteprise Continue_ (EC), un nouveau type d'entreprise conçu pour rendre congruents les intérêts des parties prenantes de façon bien plus satisfaisante que cela n'est fait dans les entreprises traditionnelles. Une Entreprise Continue est tout type d'entreprise qui met en place une offre (OPC) continue de contributions en canalisant une partie ou la totalité de ses revenus réalisés vers un système dit CCAD (pour _Contrat de Contributions Autonome Decentralisé_). Un CCAD est un _smart contract_ ayant la capacité d'émettre, de racheter et d'annuler automatiquement des actifs entièrement numériques appelés _FAIR Securities (FAIRs)_ pour répondre à la demande du marché, en utilisant des règles prédéfinies.
+[NDT] _Continuous Organizations (CO)_  ->   _Enteprise Continue_; _Continuous_Securities_Offering (CSO)_ ->  _Offre Continue de Contributions (OCC)_ ;  _Decentralized Autonomous Trust (DAT)_ -> _Contrat de Contributions Autonome Decentralisé (CCAD)_ ; _FAIR Securities (FAIRs)_ n'est pas traduit : il comprend l'idée d'une partition équitable. Mais partition de quoi ? Comme il est dit plus loin ces Fairs ne sont pas des actions. "Ces FAIRs représentent une créance sur la réserve d'argent du CCAD. Il est important de noter que, contrairement à une action, un FAIR ne représente pas un droit sur la propriété de l'entreprise bénéficiaire, mais seulement un certain droit financier sur la réserve de trésorerie gérée par le CCAD. Or, cette réserve est fonction des revenus de l'entreprise. Ainsi, en achetant des FAIR, un investisseur obtient une exposition financière sur les revenus futurs de l'entreprise". 
+
 
 _Continuous Organizations_ present very beneficial properties for all stakeholders:
 
