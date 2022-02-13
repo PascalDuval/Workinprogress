@@ -170,13 +170,9 @@ Pour définir la nature de ce pouvoir, Nicolas Colin a défini le concept de _mu
 Dans l'économie numérique, les organisations s'appuient sur la multitude (c'est-à-dire les " chauffeurs Uber ", les " hôtes Airbnb ", les " développeurs de l'App Store d'Apple ", les " utilisateurs de Facebook "...) pour prospérer en tant qu'entreprise ; pourtant, la multitude n'a aucun intérêt financier direct dans la richesse qu'elle contribue à créer au niveau de l'organisation. Au lieu de cela, la multitude entre dans la "gig economy", définie par des emplois à temps partiel payés à la tâche. Ces emplois, qui étaient très rares à l'ère industrielle, sont aujourd'hui de plus en plus courants.
 
 
-    "Comment puis-je créer une relation de confiance durable avec ma communauté ?"
-
-
 <h4 id="challenges">Nouveaux défis</h4>
 
 La transformation radicale des organisations dans l'économie numérique a créé des défis importants pour toutes les parties prenantes, qu'il faut relever :
-
 
 <h5 id="founders">🏃🏃🏽Pour les fondateurs</h5>
 
@@ -207,58 +203,59 @@ La citation ci-dessus provient de Brian Chesky, PDG d'Airbnb, dans une [lettre q
 
 **Création de richesse à long terme & réalisme économique**. Lorsqu'une communauté (qu'il s'agisse d'utilisateurs, de travailleurs, de partenaires, de fournisseurs, de clients...) tombe amoureuse du produit ou du service fourni par une organisation, elle souhaite avoir la possibilité d'être récompensée financièrement pour ses contributions actives au produit et de construire une richesse à long terme en aidant l'entreprise à se développer. Les "One-off referrals"[NDT : ?], les coupons et les cadeaux ne peuvent pas tout faire... les gens veulent de l'argent ! Cela est particulièrement vrai dans le contexte actuel où les emplois bien rémunérés avec des "pensions and 401ks"[NDT : ?]  deviennent [l'exception](https://www.wsj.com/articles/the-end-of-employees-1486050443?mod=djmc_pkt_ff&tier_1=21128300&tier_2=dcm&tier_3=21128300&tier_4=0&tier_5=4508749).
 
-<h5 id="investors">👩🏿‍💼For investors</h5>
+<h5 id="investors">👩🏿‍💼Pour mes investisseurs</h5>
 
-> _"I want the best return on investment for the risk I took."_
+> _"Je veux le meilleur retour sur investissement pour le risque que j'ai pris."_
 
-**Highest Return on Investment**. Investors really want one thing: the ability to sell their stake at the highest valuation possible. The investors' need for governance only comes from the fact that their investments are illiquid and they need governance to protect it until a liquidity event comes. As long as they can sell their stake at the best price and at the time they see fit, they are [happy](https://austinstartups.com/venture-capital-economics-with-public-market-liquidity-c2dd5cd29ab6). Without liquidity, venture capital investment is a game of home runs, which consists in finding the one investment that will make exceptional returns and over-compensate for the vast majority of other investments that did not perform well at all.
+**Le meilleur retour sur investissement**. Les investisseurs veulent seulement une chose : pouvoir vendre leur participation à la valorisation la plus élevée possible. Le besoin de gouvernance des investisseurs vient uniquement du fait que leurs investissements sont illiquides et qu'ils ont besoin d'une gouvernance pour les protéger jusqu'à ce qu'un événement de liquidité survienne. Tant qu'ils peuvent vendre leur participation au meilleur prix et au moment qu'ils jugent opportun, ils sont [satisfaits](https://austinstartups.com/venture-capital-economics-with-public-market-liquidity-c2dd5cd29ab6). 
 
-<h5 id="regulators">👨‍⚖️For regulators</h5>
+<h5 id="regulators">👨‍⚖️Pour les régulateurs</h5>
 
-> _"I want to help innovators, protect investors and collect my fair share in taxes."_
+> _"Je veux aider les innovateurs, protéger les investisseurs et percevoir ma juste partde taxes. "_
 
-Regulators (usually) aim at providing innovators with a regulatory framework that helps them create new services and products. One key aspect of such a regulatory framework is to help innovators raise capital while giving investors reasonable legal protections against misconduct. Before the digital economy, this strategy would yield big returns through tax collection. Unfortunately for regulators, the digital economy has made tax collection much more difficult:
+Les régulateurs visent (généralement) à fournir aux innovateurs un cadre réglementaire qui les aide à créer de nouveaux services et produits. L'un des aspects essentiels d'un tel cadre réglementaire est d'aider les innovateurs à lever des capitaux tout en offrant aux investisseurs des protections juridiques raisonnables contre les comportements répréhensibles. Avant l'avènement de l'économie numérique, cette stratégie permettait d'obtenir de bons résultats grâce à la perception de taxes. Malheureusement pour les régulateurs, l'économie numérique a rendu la collecte de taxes beaucoup plus difficile :
 
-> _"The digital economy systematically disconnects the place of business from the place of consumption. Consequently, it is increasingly difficult to fix the location of the value created by this economy and to apply the rules of tax laws that are now outmoded." - [Taxation of the Digital Economy - Pierre Collin & Nicolas Colin - 2013](https://www.hldataprotection.com/files/2013/06/Taxation_Digital_Economy.pdf)_
+> _"L'économie numérique déconnecte systématiquement le lieu d'activité du lieu de consommation. Par conséquent, il est de plus en plus difficile de fixer la localisation de la valeur créée par cette économie et d'appliquer les règles des lois fiscales aujourd'hui dépassées." - [Taxation of the Digital Economy - Pierre Collin & Nicolas Colin - 2013](https://www.hldataprotection.com/files/2013/06/Taxation_Digital_Economy.pdf)_
 
-<h5 id="planet">🌎For the planet</h5>
+<h5 id="planet">🌎Pour la planète</h5>
 
-> _"I want long-term thinking organizations."_
+> _"Je veux des entreprises qui réfléchissent à long terme."_
+. 
+**Des organisations qui réfléchissent à long terme et économes en énergie**. Créer des mécanismes incitatifs qui pourraient conduire les organisations à optimiser sur le long terme tout en les tenant responsables de leur impact environnemental serait hautement bénéfique pour l'humanité dans son ensemble. À l'heure actuelle, notre incapacité à établir une gouvernance applicable au niveau mondial en matière d'environnement et le court-termisme des marchés financiers actuels ont rendu la [tragédie des biens communs](https://en.wikipedia.org/wiki/Tragedy_of_the_commons) bien trop réelle. 
 
-**Long-term, energy-efficient organizations**. Creating incentive mechanisms that could lead to organizations optimizing for the long-term while keeping them accountable for their environmental impact would be highly beneficial for humanity as a whole. As of today, our inability to establish globally enforceable governance regarding environmental topics and the short-termism of today's financial markets, have made the [Tragedy of the Commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons) all too real. 
+<h4 id="ico">ICOs : Une première réponse (insuffisante) à un véritable défi.</h4>
 
-<h4 id="ico">ICOs: An initial (insufficient) answer to a real challenge</h4>
+Ces dernières années, l'essor des crypto-monnaies a donné naissance à une nouvelle alternative aux modes de financement traditionnels des organisations : l'"Initial Coin Offering". 
 
-In recent years, the rise of cryptocurrencies has given birth to a new alternative to the traditional ways of financing organizations: the Initial Coin Offering.
 
-<h5 id="principle">📝The principle</h5>
+<h5 id="principle">📝Le principe</h5>
 
-Simply put (and grossly generalized), organizations doing an ICO have more or less the following generic pitch:
+Pour faire simple (voire simpliste), les sociétés qui font une ICO ont plus ou moins le pitch suivant :
 
-> _«We created a (sometimes fixed) supply of millions of tokens on a blockchain. These tokens are not securities as we don't give investors any financial or voting rights. However, you can expect these tokens to have future value because we designed a system in which they will have the following utility. We are putting a certain number of tokens up for sale to finance the development of the project. These tokens will be liquid very soon because we are going to be listed on exchange X. Buy our tokens.»_
+> _"Nous avons créé une offre de millions de tokens sur une blockchain. Ces jetons ne sont pas des titres, car nous ne donnons aux investisseurs aucun droit financier ou de vote. Cependant, vous pouvez vous attendre à ce que ces jetons aient une valeur future car nous avons conçu un système dans lequel ils auront telle ou telle utilité. Nous mettons en vente un certain nombre de jetons pour financer le développement du projet. Ces jetons seront liquides très bientôt car nous allons être cotés sur la bourse X. Achetez nos jetons"_
 
-<h5 id="thegood">👍The Good</h5>
+<h5 id="thegood">👍Le Bon côté</h5>
 
-The good part of ICOs is that, on the surface, they seem to align the interests of the main stakeholders in the organization quite well:
+Le bon côté des ICO est que, en apparence, elles semblent assez bien rendre congruents les intérêts des principales parties prenantes du projet :
 
-*   **Founders** raise a lot of money without giving any governance rights, allowing them to pursue their vision. Thanks to the tokens they generated, they can create many financial incentives that are beneficial to the organization, from recruiting talent to enabling network effects that have the potential exponentially grow their community. Some projects implemented on-chain governance or used a DAICOs to raise funds which gave token holders some governance rights, but they are more the exception than the rule.
-*   **Investors** are happy because they usually invest at a discounted valuation and their investment will likely become liquid quickly, when the token gets listed on one of the crypto-exchanges. This early liquidity allows them to drastically reduce their risk as they can decide to sell how and when they want, provided there is enough liquidity of course.
-*   **Employees** are happy because instead of stock options, they can get tokens that nobody can take away from them and that are liquid. If you were lucky enough to work for a crypto project in its early stage, you have a decent chance of becoming a millionaire not only on paper, but in cash.
+*   **Les fondateurs** lèvent beaucoup d'argent sans donner de droits de gouvernance, ce qui leur permet de poursuivre leur vision. Grâce aux jetons qu'ils ont générés, ils peuvent créer de nombreuses incitations financières qui sont bénéfiques à l'organisation, qu'il s'agisse de recruter des talents ou de permettre des effets de réseau qui ont le potentiel de faire croître leur communauté de manière exponentielle. Certains projets ont mis en œuvre une gouvernance on-chain ou ont utilisé un DAICO pour lever des fonds, ce qui a donné aux détenteurs de jetons certains droits de gouvernance, mais ils sont plus l'exception que la règle.
+*   **Les investisseurs**  sont satisfaits car ils investissent généralement à un prix réduit et leur investissement deviendra probablement liquide rapidement, lorsque le jeton sera coté sur l'une des bourses de cryptomonnaies. Cette liquidité précoce leur permet de réduire considérablement leur risque, car ils peuvent décider de vendre quand et comment ils le souhaitent, à condition bien sûr que la liquidité soit suffisante.
+*   **Employees**  Les employés sont heureux car au lieu de stock-options, ils peuvent obtenir des jetons que personne ne peut leur enlever et qui sont liquides. Si vous avez eu la chance de travailler pour un projet de crypto dans sa phase initiale, vous avez une chance décente de devenir un millionnaire non seulement sur le papier, mais en espèces.
 
-The problem with this model is that it works only if the token does have value… unfortunately, that's rarely the case!
+Le problème de ce modèle est qu'il ne fonctionne que si le jeton a effectivement de la valeur... malheureusement, c'est rarement le cas !
 
-<h5 id="thebad">👎The Bad</h5>
+<h5 id="thebad">👎Le mauvais côté/h5>
 
-The problem is that it is very hard for the unsophisticated investor (and also for so-called 'sophisticated' ones!) to assess whether tokens will have any value at all. As a result, many retail investors, lured by the exceptional returns of a handful of well thought-out projects, burned themselves very badly.
+Le problème est qu'il est très difficile pour l'investisseur non averti (et aussi pour les investisseurs dits " avertis " !) d'évaluer si les tokens auront une quelconque valeur. Par conséquent, de nombreux investisseurs particuliers, attirés par les rendements exceptionnels d'une poignée de projets bien ficelés, se sont brûlés les ailes.
 
-Indeed, in most projects, the risk associated with investing in the project is an order of magnitude higher than the potential reward, and so the investment makes no financial sense. Here are a collection of the main risks associated with investing in an ICO:
+De fait, dans la plupart des projets, le risque associé à l'investissement dans le projet est d'un ordre de grandeur supérieur à la récompense potentielle, et l'investissement n'a donc aucun sens financier. Voici une collection des principaux risques associés à investissement type ICO :
 
-1.  _Is the team properly incentivized to create the product?_ In many projects, founders give themselves a large number of tokens with little or no vesting period. So if the ICO succeeds, the founders will immediately become rich and might very lose the motivation to actually create the product.
-1.  _Will the team be able to create the product at all?_ The project is usually at its earliest stage with no product to show, only good intentions described in a document.
-1.  _Can the product be created on the proposed timeline?_ Many projects massively underestimate the significant technical constraints posed by integrating a blockchain with a token in their system. 
-1.  _Can the product achieve a good user experience?_ Most projects completely underestimate the UX constraints posed by integrating a token in their system.
-1.  _If the product is delivered, will it be used at all?_ It is hard to know whether the team will achieve product/market fit.
-1.  _If users like the product, will the token capture any value?_ The project could be wildly successful and yet the token may have no value as it's not a security.
+1.  _L'équipe est-elle correctement incitée à créer le produit ?_ Dans de nombreux projets, les fondateurs s'octroient un grand nombre de jetons avec une courte (si ce n'est pas du tout) de période d'acquisition. Ainsi, si l'ICO réussit, les fondateurs deviendront immédiatement riches et risquent de perdre toute motivation pour créer le produit.
+1.  _ L'équipe sera-t-elle en mesure de créer le produit ?_ Le projet est généralement à son stade le plus précoce, sans produit à présenter, avec seulement de bonnes intentions décrites dans un document.
+1.  _Le produit peut-il être créé dans le délai proposé ?_ De nombreux projets sous-estiment massivement les contraintes techniques importantes que pose l'intégration d'une blockchain avec jeton, dans leur système.
+1.  _Le produit peut-il offrir une bonne expérience utilisateur ?_ La plupart des projets sous-estiment complètement les contraintes UX posées par l'intégration d'un jeton dans leur système.
+1.  _Si le produit est livré, sera-t-il utilisé  _ Il est difficile de savoir si l'équipe parviendra à une adéquation produit/marché.
+1.  _ Si les utilisateurs aiment le produit, le jeton aura-t-il une quelconque valeur ?_ Le projet pourrait connaître un succès retentissant, et cependant le jeton n'ant aucune aoir aucune valeur, car il ne s'agit pas d'un titre.
 1.  _If the token has value, will it be a good investment?_ Most projects sell their tokens at what is already a very high valuation.
 
 Given the above, it is expected that most projects will fail and are [bad](https://www.ccn.com/icos-raise-8-3-billion-last-quarter-and-most-of-them-were-abject-failures) [investments](https://docs.google.com/spreadsheets/d/1ioxvJgJiZui9ZD1nud2oLpClYCFcnzvgvMucI56uy-g/edit#gid=1772156349). Even worse, a project can be very successful yet the token has no value. This creates two important problems:
