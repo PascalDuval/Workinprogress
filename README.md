@@ -341,48 +341,49 @@ _Impact sur le contrat Bonding Curve du DAT lorsqu'un investissement se produit_
 
 Les investisseurs qui achètent des _FAIR_ le font pour investir de l'argent dans l'organisation sous-jacente. Les investisseurs ne veulent pas que leur argent soit gardé en réserve par le _CCAD_, ils veulent que leur argent soit utilisé à bon escient par l'organisation. Par conséquent, la valeur de _s_ doit être d'un ordre de grandeur inférieur à celle de _b_, ce qui signifie que **I** devrait idéalement être faible. **I** pourrait aussi être `0` si les caractéristiques de l'organisation (revenus, croissance...) peuvent le justifier.
    
-_Example_: Let's say that an investor sends 10 ETH to the _DAT_, if I=10% then the _DAT_ will transfer 9 ETH to the organization's wallet and will keep 1 ETH in its cash reserve.
+_Exemple_ : Disons qu'un investisseur envoie 10 ETH à la _CCAD_, si I=10% alors la _DAT_ transférera 9 ETH dans le portefeuille de l'organisation et gardera 1 ETH dans sa réserve d'argent.
 
-The rules described above do not apply if the investor is the beneficiary organization, that is, if the organization is technically _investing in itself_. In that case, **I** is always equal to `100%`. It means that whenever an organization is investing in its _DAT_, 100% of the amount invested by the organization to buy _FAIRs_ goes to the buy-back reserve. For more information, see the <a href="#fairpurchase"><i>FAIRs purchase by the beneficiary organization</i></a> section below.
+Les règles décrites ci-dessus ne s'appliquent pas si l'investisseur est l'entreprise bénéficiaire elle-même, c'est-à-dire si l'organisation est techniquement en train d'_investir dans elle-même_. Dans ce cas, **I** est toujours égal à `100%`. Cela signifie que lorsqu'une organisation investit dans son _DAT_, 100% du montant investi par l'organisation pour acheter du _FAIR_ va dans le pool de rachat. Pour plus d'informations, voir la section <a href="#fairpurchase"><i>Achat de FAIRs par l'organisation bénéficiaire</i></a> plus bas.
 
-<h6>Calculus</h6>
+<h6>Calcul</h6>
 
-When an investor buys _FAIRs_ for a cost `c`, he receives `x` _FAIRs_, with `x` being equal to:
+Lorsqu'un investisseur achète des _FAIRs_ pour un coût `c`, il reçoit `x` _FAIRs_, avec `x` égal à :
 
-<img src="https://latex.codecogs.com/gif.latex?x=\sqrt{\frac{2c}{b}+a^2}-a" title="Number of FAIRs acquired for a cost c" /> (see proof in <a href="#annex">Annex</a>)
+<img src="https://latex.codecogs.com/gif.latex?x=\sqrt{\frac{2c}{b}+a^2}-a" title="Nombre de FAIRs acquis pour un coût c" /> (voir preuve dand l'<a href="#annex">Annexe</a>)
 
-with `c` the amount used to buy _FAIRs_, `b` the sell slope and `a` the number of _FAIRs_ already in circulation before the transaction.
+avec `c` le montant utilisé pour acheter des _FAIRs_, `b` la pente de vente et `a` le nombre de _FAIRs_ déjà en circulation avant la transaction.
 
-<h5 id="fairpurchase">🏢 FAIRs purchase by the beneficiary organization - buy()</h5>
+<h5 id="fairpurchase">🏢 Achat de FAIRs par l'organisation bénéficiaire - buy() - buy()</h5>
 
-At any time, the beneficiary organization can decide to buy _FAIRs_. To do that, the beneficiary organization calls the `buy()` function like any other investor, however, unlike external investors, the funds sent by the beneficiary organization to purchase _FAIRs_ are 100% funneled to the buyback reserve (i.e the contribution ratio `I` is equal to 100% when funds come from the beneficiary organization).
+A tout moment, l'organisation bénéficiaire peut décider d'acheter des _FAIRs_. Pour ce faire, l'organisation bénéficiaire appelle la fonction `buy()` comme n'importe quel autre investisseur, cependant, contrairement aux investisseurs externes, les fonds envoyés par l'organisation bénéficiaire pour acheter des _FAIRs_ sont à 100% versés dans la réserve de rachat (c'est-à-dire que le ratio de contribution `I` est égal à 100% lorsque les fonds proviennent de l'organisation bénéficiaire).
 
-This guarantees a total alignment of interests between all investors. Indeed, if the beneficiary organization was able to buy _FAIRs_ with the same investment ratio I than external investors, it would concretely mean that the beneficiary organization is able to buy _FAIRs_ for a fraction of the price compared to external investors (because the organization receives by definition `(1-I)%` of the amount invested). This difference could easily be abused by dishonest organizations and managers.
+Cela garantit un alignement total des intérêts entre tous les investisseurs. En effet, si l'organisation bénéficiaire était en mesure d'acheter des _FAIR_ avec le même ratio d'investissement I que les investisseurs externes, cela signifierait concrètement que l'organisation bénéficiaire serait en mesure d'acheter des _FAIR_ pour une fraction seulement du prix par rapport aux investisseurs externes (puisque l'entreprise reçoit par définition `(1-I)%` du montant investi). Cette différence pourrait facilement être manipulé par des organisations et des gestionnaires malhonnêtes.
 
-Purchasing _FAIRs_ is also how the organization can reward _FAIRs_ holders. Indeed, when the beneficiary organization buys _FAIRs_, not only does it increase the buy-back reserve, it also increases the slope of the selling curve (see detailed explanation below).
+L'achat de _FAIRs_ est aussi la façon dont l'organisation peut récompenser les détenteurs de _FAIRs_. En effet, lorsque l'organisation bénéficiaire achète des _FAIRs_, non seulement elle augmente la réserve de rachat, mais elle augmente également la pente de la courbe de vente (voir explication détaillée ci-dessous).
 
-As a consequence, in the case of an organization with off-chain revenues, buying _FAIRs_ is how the organization actually funnels its revenues to the _DAT_. That means that, the more revenues the organization generates, the more _FAIRs_ it accrues over time and can use to further incentivize its key stakeholders. Of course, the organization can also simply decide to `burn()` its _FAIRs_ if it wants to maximize the reward to _FAIR_ holders.
+Par conséquent, dans le cas d'une entreprise ayant des revenus _off-chain_, l'achat de _FAIRs_ est la façon dont elle achemine ses revenus vers le _CCAD_. Cela signifie que plus l'organisation génère de revenus, plus elle accumule de _FAIR_ au fil du temps et peut les utiliser pour motiver davantage ses principales parties prenantes. Bien sûr, l'organisation peut aussi simplement décider de  `burn()` ses _FAIRs_ si elle veut maximiser la récompense des détenteurs de _FAIRs_.
+[NdT] `burn()` est une fonction qui consiste à "brûler" des FAIRs (sans pour autant les faire disparaître du _supply_)
 
 <img src="images/CO-token-buyback.PNG" width="380" title="FAIRs purchase flow" alt="FAIRs purchase flow" />
 
-_Value flow when the beneficiary organization purchases FAIRs_
+_Flux de valeur lorsque l'organisme bénéficiaire achète des FAIR_.
 
 <img src="images/CO-token-buyback-curve.png" width="350" title="FAIRs purchase impact" alt="FAIRs purchase impact" />
 
-_Impact on the Bonding Curve when the beneficiary organization purchases FAIRs_
+_Impact sur la courbe de Bonding lorsque l'organisme bénéficiaire achète des FAIR_s
 
-The difference between an investment by an external investor and a _FAIRs_ purchase by the beneficiary organization is their respective _contribution ratio_ to the _DAT_'s reserve:
+La différence entre un investissement par un investisseur externe et un achat de _FAIRs_ par l'organisme bénéficiaire est la _mesure de sa contribution_ par rapport à la réserve de la _CCAD_ :
 
-1.  **investment by external investor**: an amount M contributes `I*M` to the _DAT_'s reserve while minting the value equivalent of M, thus a contribution ratio of `(I*M)/M=I` and by construction I<<100%
-2.  **FAIRs purchase by beneficiary organization**: an amount M contributes `M` to the _DAT_'s reserve while minting the value equivalent of `M`, thus a contribution ratio of `M/M=100%`
+1.  **investissement par un investisseur extérieur** : un montant M contribue à la réserve de la _CCAD_ par `I*M` en émettant l'équivalent en valeur de M, donc un ratio de contribution de `(I*M)/M=I` et par construction I<<100%.
+2.  **Achat de FAIRs par l'entreprise bénéficiaire** : un montant M contribue à la réserve du _CCAD_ en émettant l'équivalent en valeur de `M`, soit un ratio de contribution de `M/M=100%`.
 
-After each transaction, _s_ can be recalculated from the amount in reserve R<sub>t</sub>:
+Après chaque transaction, _s_ peut être recalculé à partir du montant en réserve R<sub>t</sub> :
 
 <img src="https://latex.codecogs.com/gif.latex?R_{t}=\int_{0}^{x}S_{t}(x)dx=\int_{0}^{x}s_{t}xdx=\frac{s_{t}x^{2}}{2}" />
 
-so 
+donc 
 
-<img src="https://latex.codecogs.com/gif.latex?s_{t}=\frac{2R_{t}}{x^{2}}=\frac{2R}{\frac{2d}{b}+a^{2}}" /> &nbsp;&nbsp;_(see proof in <a href="#annex">Annex</a>)_ 
+<img src="https://latex.codecogs.com/gif.latex?s_{t}=\frac{2R_{t}}{x^{2}}=\frac{2R}{\frac{2d}{b}+a^{2}}" /> &nbsp;&nbsp;_(voir preuve dans <a href="#annex">l'annea>)_ 
 
 _Example_: Say I=10%,s<sub>0</sub>=0.1 and b=1. Assume an investor buys the first 10 tokens for 50 ETH, so the _DAT_ now has 50x10%=5 ETH in reserve. Then, the beneficiary organization buys _FAIRs_ for 1 ETH of value. This 1 ETH is used to mint 0.0995 tokens (we'll leave this as an exercise for the reader. Hint: the equation to solve is <img src="https://latex.codecogs.com/gif.latex?x^{2}+20x-2=0" />), which gives s<sub>1</sub>=0.1176. So, the operation increased value for _FAIRs_ holders as s<sub>1</sub>>s<sub>0</sub>, that is, they can now sell their _FAIRs_ at a higher value than before.
 
