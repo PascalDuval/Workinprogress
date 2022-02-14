@@ -215,7 +215,7 @@ La citation ci-dessus provient de Brian Chesky, PDG d'Airbnb, dans une [lettre q
 
 Les régulateurs visent (généralement) à fournir aux innovateurs un cadre réglementaire qui les aide à créer de nouveaux services et produits. L'un des aspects essentiels d'un tel cadre réglementaire est d'aider les innovateurs à lever des capitaux tout en offrant aux investisseurs des protections juridiques raisonnables contre les comportements répréhensibles. Avant l'avènement de l'économie numérique, cette stratégie permettait d'obtenir de bons résultats grâce à la perception de taxes. Malheureusement pour les régulateurs, l'économie numérique a rendu la collecte de taxes beaucoup plus difficile :
 
-> _"L'économie numérique déconnecte systématiquement le lieu d'activité du lieu de consommation. Par conséquent, il est de plus en plus difficile de fixer la localisation de la valeur créée par cette économie et d'appliquer les règles des lois fiscales aujourd'hui dépassées." - [Taxation of the Digital Economy - Pierre Collin & Nicolas Colin - 2013](https://www.hldataprotection.com/files/2013/06/Taxation_Digital_Economy.pdf)_
+> _"L'économie numérique déconnecte systématiquement le lieu d'activité du lieu de consommation. Par conséquent, il est de plus en plus difficile de fixer la localisation de la valeur créée par cette économie et d'appliquer les règles des lois fiscales aujourd'hui dépassées."[Taxation of the Digital Economy - Pierre Collin & Nicolas Colin - 2013](https://www.hldataprotection.com/files/2013/06/Taxation_Digital_Economy.pdf)_
 
 <h5 id="planet">🌎Pour la planète</h5>
 
@@ -251,14 +251,14 @@ Le problème est qu'il est très difficile pour l'investisseur non averti (et au
 De fait, dans la plupart des projets, le risque associé à l'investissement dans le projet est d'un ordre de grandeur supérieur à la récompense potentielle, et l'investissement n'a donc aucun sens financier. Voici une collection des principaux risques associés à investissement type ICO :
 
 1.  _L'équipe est-elle correctement incitée à créer le produit ?_ Dans de nombreux projets, les fondateurs s'octroient un grand nombre de jetons avec une courte (si ce n'est pas du tout) de période d'acquisition. Ainsi, si l'ICO réussit, les fondateurs deviendront immédiatement riches et risquent de perdre toute motivation pour créer le produit.
-1.  _ L'équipe sera-t-elle en mesure de créer le produit ?_ Le projet est généralement à son stade le plus précoce, sans produit à présenter, avec seulement de bonnes intentions décrites dans un document.
-1.  _Le produit peut-il être créé dans le délai proposé ?_ De nombreux projets sous-estiment massivement les contraintes techniques importantes que pose l'intégration d'une blockchain avec jeton, dans leur système.
-1.  _Le produit peut-il offrir une bonne expérience utilisateur ?_ La plupart des projets sous-estiment complètement les contraintes UX posées par l'intégration d'un jeton dans leur système.
-1.  _Si le produit est livré, sera-t-il utilisé  _ Il est difficile de savoir si l'équipe parviendra à une adéquation produit/marché.
-1.  _ Si les utilisateurs aiment le produit, le jeton aura-t-il une quelconque valeur ?_ Le projet pourrait connaître un succès retentissant, et cependant le jeton n'ayant aucune aucune valeur, car il ne s'agit pas d'un titre.
-1.  _Si le jeton a de la valeur, sera-t-il un bon investissement ?_ La plupart des projets vendent leurs jetons à une valeur déjà très élevée..
+2.  _ L'équipe sera-t-elle en mesure de créer le produit ?_ Le projet est généralement à son stade le plus précoce, sans produit à présenter, avec seulement de bonnes intentions décrites dans un document.
+3.  _Le produit peut-il être créé dans le délai proposé ?_ De nombreux projets sous-estiment massivement les contraintes techniques importantes que pose l'intégration d'une blockchain avec jeton, dans leur système.
+4.  _Le produit peut-il offrir une bonne expérience utilisateur ?_ La plupart des projets sous-estiment complètement les contraintes UX posées par l'intégration d'un jeton dans leur système.
+5.  _Si le produit est livré, sera-t-il utilisé  _ Il est difficile de savoir si l'équipe parviendra à une adéquation produit/marché.
+6.  _ Si les utilisateurs aiment le produit, le jeton aura-t-il une quelconque valeur ?_ Le projet pourrait connaître un succès retentissant, et cependant le jeton n'ayant aucune aucune valeur, car il ne s'agit pas d'un titre.
+7.  _Si le jeton a de la valeur, sera-t-il un bon investissement ?_ La plupart des projets vendent leurs jetons à une valeur déjà très élevée..
 
-Compte tenu de ce qui précède, on peut s'attendre à ce que la plupart des projets échouent et soient de [mauvais] (https://www.ccn.com/icos-raise-8-3-billion-last-quarter-and-most-of-them-were-abject-failures) [investissements] (https://docs.google.com/spreadsheets/d/1ioxvJgJiZui9ZD1nud2oLpClYCFcnzvgvMucI56uy-g/edit#gid=1772156349). Pire encore, un projet peut être très réussi alors que le jeton n'a aucune valeur. Cela crée deux problèmes importants :
+Compte tenu de ce qui précède, on peut s'attendre à ce que la plupart des projets échouent et soient de [mauvais](https://www.ccn.com/icos-raise-8-3-billion-last-quarter-and-most-of-them-were-abject-failures) [investissements](https://docs.google.com/spreadsheets/d/1ioxvJgJiZui9ZD1nud2oLpClYCFcnzvgvMucI56uy-g/edit#gid=1772156349). Pire encore, un projet peut être très réussi alors que le jeton n'a aucune valeur. Cela crée deux problèmes importants :
 
 1.  **Les investisseurs particuliers se font arnaquer** en raison de la façon dont la [_Shitcoin Waterfall_] (https://soundcloud.com/unchainedpodcast/meltem-demirors-and-jill#t=51:03) fonctionne dans les ICO.
 2.  **Les régulateurs ne savent pas comment gérer les ICOs. D'un côté, ils saluent les innovations qui attirent les talents et les investisseurs, mais d'un autre côté, ils n'aiment pas que les petits investisseurs se fassent arnaquer.
@@ -353,7 +353,7 @@ Lorsqu'un investisseur achète des _FAIRs_ pour un coût `c`, il reçoit `x` _FA
 
 avec `c` le montant utilisé pour acheter des _FAIRs_, `b` la pente de vente et `a` le nombre de _FAIRs_ déjà en circulation avant la transaction.
 
-<h5 id="fairpurchase">🏢 Achat de FAIRs par l'organisation bénéficiaire - buy() - buy()</h5>
+<h5 id="fairpurchase">🏢 Achat de FAIRs par l'organisation bénéficiaire - buy()</h5>
 
 A tout moment, l'organisation bénéficiaire peut décider d'acheter des _FAIRs_. Pour ce faire, l'organisation bénéficiaire appelle la fonction `buy()` comme n'importe quel autre investisseur, cependant, contrairement aux investisseurs externes, les fonds envoyés par l'organisation bénéficiaire pour acheter des _FAIRs_ sont à 100% versés dans la réserve de rachat (c'est-à-dire que le ratio de contribution `I` est égal à 100% lorsque les fonds proviennent de l'organisation bénéficiaire).
 
@@ -385,94 +385,98 @@ donc
 
 <img src="https://latex.codecogs.com/gif.latex?s_{t}=\frac{2R_{t}}{x^{2}}=\frac{2R}{\frac{2d}{b}+a^{2}}" /> &nbsp;&nbsp;_(voir preuve dans <a href="#annex">l'annexe</a>)
 
-_Example_: Say I=10%,s<sub>0</sub>=0.1 and b=1. Assume an investor buys the first 10 tokens for 50 ETH, so the _DAT_ now has 50x10%=5 ETH in reserve. Then, the beneficiary organization buys _FAIRs_ for 1 ETH of value. This 1 ETH is used to mint 0.0995 tokens (we'll leave this as an exercise for the reader. Hint: the equation to solve is <img src="https://latex.codecogs.com/gif.latex?x^{2}+20x-2=0" />), which gives s<sub>1</sub>=0.1176. So, the operation increased value for _FAIRs_ holders as s<sub>1</sub>>s<sub>0</sub>, that is, they can now sell their _FAIRs_ at a higher value than before.
 
-<h5 id="burn">🔥 Burning FAIRs - burn()</h5>
 
-A _FAIRs_ holder can at anytime take the decision to burn its _FAIRs_ by calling the `burn()` function.
+_Example_: Prenons I=10%,s<sub>0</sub>=0.1 and b=1. Supposons qu'un investisseur achète les 10 premiers jetons pour 50 ETH, de sorte que le _CCAD_ a maintenant 50x10%=5 ETH en réserve. Ensuite, l'organisation bénéficiaire achète des _FAIRs_ pour une valeur de 1 ETH. Ce 1 ETH est utilisé pour frapper 0,0995 tokens (nous laissons cela comme un exercice pour le lecteur. Indice : l'équation à résoudre est <img src="https://latex.codecogs.com/gif.latex?x^{2}+20x-2=0" />), qui donne s<sub>1</sub>=0.1176. Ainsi, l'opération a augmenté la valeur pour les détenteurs de _FAIRs_ puisque s<sub>1</sub>>s<sub>0</sub>, c'est-à-dire qu'ils peuvent maintenant vendre leurs _FAIRs_ à une valeur plus élevée qu'auparavant.
 
-Burning _FAIRs_ does not technically destroys them (the total supply of _FAIRs_, including burnt _FAIRs_ remains the same) but it makes sure that no one will ever be able to use them so that their marginal value can be redistributed equally to other _FAIR_ holders.
+<h5 id="burn">🔥 "Brûler" les FAIRs - burn()</h5>
 
-It makes little sense for an investor to do so with its _FAIRs_, but it does make sense for the beneficiary organization to be able to burn its _FAIRs_ (1) if it has no use of them or (2) if it wants to increase the value of all other _FAIRs_.
+Un détenteur de _FAIRs_ peut à tout moment prendre la décision de brûler ses _FAIRs_ en appelant la fonction `burn()`.
 
-Indeed, when a _FAIR_ is burnt, its lowest possible value is equally redistributed to all _FAIRs_ holders so that, when an investor sells its _FAIRs_, he receives a fraction of the cash reserve + a pro-rata of the value locked in burnt _FAIRs_. See <a href="#sell">sell()</a> section below for the exact calculus.
+Brûler des _FAIRs_ ne les détruit pas techniquement (l'offre totale de _FAIRs_, y compris les _FAIRs_ brûlés, reste la même) mais cela permet de s'assurer que personne ne pourra jamais les utiliser afin que leur valeur marginale puisse être redistribuée de manière égale aux autres détenteurs de _FAIRs_.
 
-The direct consequence of this is that there is never value locked forever in the cash reserve: selling 100% of the non-burnt _FAIRs_ will deplete the cash reserve from 100% of its value.
+Il n'est pas très logique qu'un investisseur agisse ainsi avec ses _FAIR_, mais il est logique que l'organisation bénéficiaire puisse brûler ses _FAIR_ (1) si elle n'en a pas l'utilité ou (2) si elle veut augmenter la valeur de tous les autres _FAIR_.
+
+En effet, lorsqu'un _FAIR_ est brûlé, sa valeur la plus basse possible est redistribuée de manière égale à tous les détenteurs de _FAIRs_ de sorte que, lorsqu'un investisseur vend ses _FAIRs_, il reçoit une fraction de la réserve d'argent + un prorata de la valeur bloquée coorespondant aux _FAIRs_ brûlés. Voir la section <a href="#sell">sell()</a> ci-dessous pour le calcul exact.
+
+La conséquence directe de ceci est qu'il n'y a jamais de valeur bloquée à jamais dans la réserve de liquidités : la vente de 100% des _FAIRs_ non brûlés videra la réserve de liquidités de 100% de sa valeur.
 
 <img src="images/CO-burn-impact.png" width="350" title="FAIRs burn impact" alt="FAIRs burn impact" />
 
-_Representation of the impact of burning FAIRs on the Bonding Curve_
+Représentation de l'impact de la combustion des FAIR sur la courbe de liaison.
 
-<h5 id="sell">💰 Investments - sell()</h5>
+<h5 id="sell">💰 Investissements - sell()</h5>
 
-Investors can at any time decide to sell their FAIRs to get ETH back. They do that by calling the `sell()` function of the _DAT_. When the _DAT_ receives _FAIRs_, it burns the received _FAIRs_ and sends ETH back to the selling investor according to a function **S** (for **s**ell). _S_ has a slope _s_ that increases discretely over time, every time the _DAT_ receives a payment. The ETH sent back to the investor is taken from the _DAT_ "buyback" cash reserve and does **not** affect the organization's treasury.
+Les investisseurs peuvent à tout moment décider de vendre leurs FAIRs pour récupérer des ETH. Ils le font en appelant la fonction `sell()` du _CCAD_. Lorsque le  _CCAD reçoit des _FAIRs_, il brûle les _FAIRs_ reçus et renvoie des ETH à l'investisseur vendeur selon une fonction **S** (pour **s**ell). _S_ a une pente _s_ qui augmente discrètement dans le temps, chaque fois que le _CCAD reçoit un paiement. L'ETH renvoyé à l'investisseur est prélevé sur la réserve d'argent du _DAT_ "rachat" et **n'affecte pas** la trésorerie de l'organisation.
 
 
-<img src="images/Introducing-Continuous5.png" width="580" title="Investments - Sell" alt="Investments - Sell" />
+<img src="images/Introducing-Continuous5.png" width="580" title="Investissements - Sell" alt="Investissements - Sell" />
 
-_Value flow when a FAIR sale occurs_
+_Flux de valeur lors d'une vent ede FAIR_.
 
 <img src="images/Introducing-Continuous6.png" width="300" title="Investments - Sell - Impact on bonding curve" alt="Investments - Sell - Impact on bonding curve" />
 
-_Impact on the Bonding Curve Contract of the DAT when an investor sells its tokens_
+_Impact sur le contrat de la courbe de liaison du CCAD lorsqu'un investisseur vend ses jetons_.
 
-<h6>calculus</h6>
 
-When an investor sells `x` _FAIRs_, assuming no _FAIRs_ were previously burnt, he receives an amount `c`, with `c` being equal to:
+<h6>calcul</h6>
 
-<img src="https://latex.codecogs.com/gif.latex?c=axs-\frac{x^2s}{2}" title="amount perceived when selling x FAIRs (without burnt FAIRs)" /> (see proof in <a href="#annex">Annex</a>)
+Lorsqu'un investisseur vend `x` _FAIRs_, en supposant qu'aucun _FAIR_ n'a été brûlé auparavant, il reçoit un montant `c`, avec `c` égal à :
 
-with `s` the sell slope and `a` the number of _FAIRs_ in circulation before the transaction.
+<img src="https://latex.codecogs.com/gif.latex?c=axs-\frac{x^2s}{2}" title="amount perceived when selling x FAIRs (without burnt FAIRs)" /> (see proof in <a href="#annex">Annexe</a>)
 
-In the case _FAIRs_ were burnt (see <a href="#burn">previous section</a>), the calculus becomes:
+avec `s` la pente de vente et `a` le nombre de _FAIRs_ en circulation avant la transaction.
+
+Dans le cas où des FAIRs o,t été brûlés (see <a href="#burn">section précédente</a>), le calcul devient :
 
 <img src="https://latex.codecogs.com/gif.latex?c=axs-\frac{x^2s}{2}+\frac{sxx'^2}{2(a-x')}" title="amount perceived when selling x FAIRs" />
 
-where `x'` is the number of burnt _FAIRs_.
+où `x'` est le nombre de _FAIRs_ brûlés.
 
-<h5 id="pay">💲 Revenues - pay()</h5>
+<h5 id="pay">💲 Revenus - pay()</h5>
 
-A _Continuous Organization_ has the *option* to perceive its customer's payments directly through the _DAT_ by calling its `pay()` function.
+Une _Entreprise Continue_ a la *option* de percevoir les paiements de ses clients directement par le  _CCAD_ en appelant sa fonction `pay()`.
 
-Whenever the _DAT_ receives a payment **P**, a fraction of the payment received is being funneled into the cash reserve. We'll call **D** (for **D**istribution) the percentage of the revenues being funneled into the cash reserve and **d** the corresponding fraction of the revenues (d=P*D). The entire amount `d` is saved in the _DAT_'s cash reserve, thus increasing the value of _FAIRs_.
+Chaque fois que le _ CCAD_ reçoit un paiement **P**, une fraction du paiement reçu est versée dans la réserve de trésorerie. Nous appellerons **D** (pour **D**istribution) le pourcentage des revenus versés dans la réserve de trésorerie et **d** la fraction correspondante des revenus (d=P*D). Le montant total `d` est sauvegardé dans la réserve de trésorerie du _CCAD_, augmentant ainsi la valeur des _FAIRs_.
 
-It is important to note that calling `pay()` will also trigger the issuance of new _FAIRs_. The number of _FAIRs_ issued is equivalent to the number of _FAIRs_ that would be created if `buy(d)` was called. By default, these newly minted _FAIRs_ are sent to the organization like showed on the following graph:
+Il est important de noter que l'appel à `pay()` déclenche également l'émission de nouveaux _FAIRs_. Le nombre de _FAIRs_ émis est équivalent au nombre de _FAIRs_ qui seraient créés si `buy(d)` était appelé. Par défaut, ces nouveaux _FAIRs_ sont envoyés à l'organisation comme le montre le graphique suivant :
 
 <img src="images/customer-pays-org.png" width="580" title="pay() function value flow" alt="pay() function value flow" />
 
-_Value flow when the CO relies on the DAT to receive its payments_
+_Flux de valeur lorsque l' EO s'appuie sur le CCAD pour recevoir ses paiements_.
 
-Optionally, the customer can specify a parameter of the `pay()` function to sent the newly minted _FAIRs_ to an address of his choice (most likely the address of his wallet) in which case the value flow would look like this:
+Optionellement, le client peut spécifier un paramètre de la fonction `pay()` pour envoyer les _FAIRs_ nouvellement émis à une adresse de son choix (très probablement l'adresse de son portefeuille), auquel cas le flux de valeur ressemblerait à ceci :
 
 <img src="images/customer-pays-to.png" width="580" title="pay() function value flow" alt="pay() function value flow" />
 
-_Value flow when the customer specifies his wallet address to pay()_
+Flux de valeurs lorsque le client spécifie l'adresse de son portefeuille à pay()_.
 
-_Example_: Suppose D=5%, if the _Continuous Organization_ receives a payment of 100 ETH, 5 ETH will be funneled to the "buyback" cash reserve, increasing the collective value of _FAIRs_.
+_Exemple_ : Supposons que D=5%, si l'_Organisation Continue_ reçoit un paiement de 100 ETH, 5 ETH seront canalisés vers la réserve d'argent "rachat", augmentant ainsi la valeur collective des _FAIRs_.
 
-_Note_: For some _Continuous Organizations_ (_COs_ with no underlying legal entity, for example), it can make sense to receive their customers' payments (i.e. the _CO_'s revenues) directly through the _DAT_. It is important to note that it is not mandatory for the organization's revenues to funnel through the _DAT_ as the organization can also decide to _only_ reward _FAIRs_ holders through _FAIRs_ purchase.
+Remarque : Pour certaines _Entreprise Continue_ (_EC_ sans entité légale sous-jacente, par exemple), il peut être judicieux de recevoir les paiements de leurs clients (c'est-à-dire les revenus de l'_EC_) directement par le _CCAD_. Il est important de noter qu'il n'est pas obligatoire que les revenus de l'organisation passent par le _CCAD_ car l'organisation peut aussi décider de récompenser _seulement_les_détenteurs_de _FAIRs_ par l'achat de _FAIRs_.
 
-For organizations that already have a running business, they will very likely prefer to _first_ receive a payment from their customer in fiat (as they usually do, without changing their selling process) and will _then_ purchase _FAIRs_ to transfer a fraction of their perceived revenues to the _DAT_ to increase the _FAIRs_ value, as illustrated here:
+
+Pour les organisations qui ont déjà une activité en cours, elles préféreront très probablement _en_premier_ recevoir un paiement de leur client en monnaie fiduciaire (comme elles le font habituellement, sans changer leur processus de vente) et _ensuite_ acheter des _FAIRs_ pour transférer une fraction de leurs revenus perçus vers le _CCAD_ afin d'augmenter la valeur des _FAIRs_, comme illustré ici :
 
 <img src="images/buy-offchain-revenues.png" width="400" title="Revenues for real organizations" alt="Revenues for real organizations" />
 
-This way, the _DAT_ is made completely invisible for the customer (no change in UX) and the organization does **not** have to modify any of its highly optimized selling processes.
+De cette façon, le _CCAD_ est rendu totalement invisible pour le client (aucun changement dans l'UX) et l'organisation ne doit **pas** modifier ses processus de vente.
 
-<h5 id="pre-mint">🍯Pre-minted FAIR pool</h5>
+<h5 id="pre-mint">🍯Pool de FAIR pré-émis</h5>
 
-When the _DAT_ is being created (and **only** then because once created the _DAT_ becomes immutable), the organization can decide to "pre-mint" for itself and for free a number **PM** of _FAIRs_. That means that, instead of having the supply of _FAIRs_ of the _DAT_ start from zero, it would start from PM.
+Lors de la création de la _DAT_ (et **seulement** à ce moment-là car une fois créée, la _DAT_ devient immuable), l'organisation peut décider de "pré-miner" pour elle-même et gratuitement un nombre **PM** de _FAIRs_. Cela signifie qu'au lieu que l'offre de _FAIRs_ de la _DAT_ commence à zéro, elle commence à PM.
 
-Pre-minting FAIRs can often make a lot of sense to the organization, be it to reward its founders, to pay its early employees, to reward its early users or to secure a liquidity pool for the secondary market.
+Le fait de pré-émettre des FAIRs peut souvent avoir beaucoup de sens pour l'organisation, que ce soit pour récompenser ses fondateurs, pour payer ses premiers employés, pour récompenser ses premiers utilisateurs ou pour garantir une réserve de liquidités pour le marché secondaire.
 
-However, it is very important to realize that pre-creating FAIRs comes with a potentially high cost, as these "free" pre-minted _FAIRs_ represent a selling pressure on the _DAT_ as they are _FAIRs_ that got allocated "for free", without any contribution to the _DAT_ "buyback" cash reserve.
+Cependant, il est très important de réaliser que la pré-création de FAIRs a un coût potentiellement élevé, car ces _FAIRs_ pré-minés "gratuits" représentent une pression de vente sur le _CCAD_ puisqu'il s'agit de _FAIRs_ qui ont été alloués "gratuitement", sans aucune contribution à la réserve de cash de "rachat" du _DAT_.
 
-Technically speaking, it means that the greater the number of FAIR tokens that are pre-minted, the lower the sell curve will be (i.e., the _s_ slope defined previously). So concretely, if an organization decides to pre-mint a large number of FAIRs when setting up the DAT, it may want to be very careful not to pre-mint too many of them because it could have a significant negative impact on the risk and financial reward of investors.
+Techniquement parlant, cela signifie que plus le nombre de jetons FAIR pré-minés est important, plus la courbe de vente sera basse (c'est-à-dire la pente _s_ définie précédemment). Concrètement, si une organisation décide de pré-miner un grand nombre de FAIRs lors de la mise en place du CCAD, elle devra faire très attention à ne pas en pré-miner un trop grand nombre car cela pourrait avoir un impact négatif important sur le risque et la récompense financière des investisseurs.
 
 <img src="images/Introducing-Continuous10.png" width="300" title="Pre-minted FAIR pool" alt="Pre-minted FAIR pool" />
 
-_Impact of pre-minted tokens, everything else being equal_
+_Impact des jetons pré-minés, toutes choses égales par ailleurs_.
 
- So, as an organization, you might have good reasons to pre-mint some _FAIRs_ but beware because pre-minting too much will make your _FAIRs_ become less attractive for investors. A good rule here is to only pre-mint the _FAIRs_ needed before generating revenues. Once revenues starts rolling in, the organization will accrue _FAIRs_ naturally, through the funneling of its revenues to the _DAT_.
+ Ainsi, en tant qu'organisation, vous pouvez avoir de bonnes raisons de pré-miner certains _FAIRs_, mais faites attention car si vous pré-miner trop, vos _FAIRs_ deviendront moins attractifs pour les investisseurs. Une bonne règle consiste à ne pré-miner que les _FAIRs_ nécessaires avant de générer des revenus. Une fois que les revenus commenceront à affluer, l'organisation accumulera naturellement des _FAIRs_, grâce à l'acheminement de ses revenus vers le _CCAD_.
 
 
 <h5 id="summary">📄 Summary</h5>
