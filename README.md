@@ -315,7 +315,7 @@ Donc, dans notre exemple `C=10*10/2=50`.
 
 <h4 id="dat">Contrat de Contributions Autonome Decentralisé (CCAD)</h4>
 
-Dans le cas des _Entreprises continues_, nous introduisons la _courbe de liaison basée sur le revenu_ : une courbe de liaison qui utilise 2 fonctions différentes, une pour la courbe d'achat et une autre pour la courbe de vente : **B** (pour **b**uy - Achat) et **S** (pour **s**ell - Vente) avec <img src="https://latex.codecogs.com/gif.latex?B(x)>S(x)&space;\forall&space;x&space;\in&space ;[0;\infty[" />.
+Dans le cas des _Entreprises continues_, nous introduisons la _courbe de liaison basée sur le revenu_ : une courbe de liaison qui utilise 2 fonctions différentes, une pour la courbe d'achat et une autre pour la courbe de vente : **B** (pour **b**uy - Achat) et **S** (pour **s**ell - Vente) avec <img src="https://camo.githubusercontent.com/aea6269676ccbfd3fd4c45b1c8d78e00bcbde212e014e770a1fe9bb09f78597a/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f6769662e6c617465783f422878293e532878292673706163653b5c666f72616c6c2673706163653b782673706163653b5c696e2673706163653b5b303b5c696e6674795b">
 
 <img src="images/Introducing-Continuous2.png" width="580" title="Buy and Sell curves" alt="Buy and Sell curves" />
 
