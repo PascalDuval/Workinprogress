@@ -32,7 +32,7 @@ En pratique la FINMA classifie dans jetons d'investissement, beaucoup de jetons 
 
 L'économie numérique a radicalement changé la nature de la relation entre les clients et les entreprises. Les individus d'aujourd'hui sont passés du statut de consommateurs passifs à celui de force essentielle dans la création de valeur, soit par leur travail réel (pensons à Airbnb, Uber, App Store d'Apple, Amazon Marketplace...), soit par leurs données (Facebook, Google...). En exploitant le travail de leurs utilisateurs, les organisations de l'économie numérique ont la possibilité de créer des produits avec des expériences utilisateur personnalisées qui peuvent soutenir des rendements croissants à l'échelle, offrant ainsi aux investisseurs des [retours sur investissement](https://en.wikipedia.org/wiki/Returns_to_scale).
 
-Malheureusement, les organisations d'aujourd'hui n'ont pas de moyen simple et efficace de rendre congruents les intérêts de leurs utilisateurs avec le succès financier de leur organisation. Cela est principalement dû aux lois actuelles sur les valeurs mobilières qui imposent des contraintes et des frictions lorsqu'il s'agit de vendre et de distribuer des jetons d'investissement (_security token_), en particulier aux investisseurs "non accrédités".
+Malheureusement, les organisations d'aujourd'hui n'ont pas de moyen simple et efficace de rendre congruents les intérêts de leurs utilisateurs avec le succès financier de leur organisation. Cela est principalement dû aux lois actuelles sur les valeurs mobilières qui imposent des contraintes et des frictions lorsqu'il s'agit de vendre et de distribuer des jetons d'investissement ([NdT] : _security token_), en particulier aux investisseurs "non accrédités".
 
 Pour résoudre ce problème, nous proposons un nouveau paradigme : l' _Enteprise Continue_ (EC), un nouveau type d'entreprise conçu pour rendre congruents les intérêts des parties prenantes de façon bien plus satisfaisante que cela n'est fait dans les entreprises traditionnelles. Une Entreprise Continue est tout type d'entreprise qui met en place une Offre Continue de Contributions (OCC) en canalisant une partie ou la totalité de ses revenus réalisés vers un système dit CCAD (pour _Contrat de Contributions Autonome Decentralisé_). Un CCAD est un _smart contract_ ayant la capacité d'émettre, de racheter et d'annuler automatiquement des actifs entièrement numériques appelés _FAIR Securities (FAIRs)_ pour répondre à la demande du marché, en utilisant des règles prédéfinies.
 
@@ -412,7 +412,7 @@ Les investisseurs peuvent à tout moment décider de vendre leurs FAIRs pour ré
 
 <img src="images/Introducing-Continuous5.png" width="580" title="Investissements - Sell" alt="Investissements - Sell" />
 
-_Flux de valeur lors d'une vent ede FAIR_.
+_Flux de valeur lors d'une vente de FAIR_.
 
 <img src="images/Introducing-Continuous6.png" width="300" title="Investments - Sell - Impact on bonding curve" alt="Investments - Sell - Impact on bonding curve" />
 
@@ -427,7 +427,7 @@ Lorsqu'un investisseur vend `x` _FAIRs_, en supposant qu'aucun _FAIR_ n'a été 
 
 avec `s` la pente de vente et `a` le nombre de _FAIRs_ en circulation avant la transaction.
 
-Dans le cas où des FAIRs o,t été brûlés (see <a href="#burn">section précédente</a>), le calcul devient :
+Dans le cas où des FAIRs ont été brûlés (see <a href="#burn">section précédente</a>), le calcul devient :
 
 <img src="https://latex.codecogs.com/gif.latex?c=axs-\frac{x^2s}{2}+\frac{sxx'^2}{2(a-x')}" title="amount perceived when selling x FAIRs" />
 
@@ -435,7 +435,7 @@ où `x'` est le nombre de _FAIRs_ brûlés.
 
 <h5 id="pay">💲 Revenus - pay()</h5>
 
-Une _Entreprise Continue_ a la *option* de percevoir les paiements de ses clients directement par le  _CCAD_ en appelant sa fonction `pay()`.
+Une _Entreprise Continue_ a l' *option* de percevoir les paiements de ses clients directement par le  _CCAD_ en appelant sa fonction `pay()`.
 
 Chaque fois que le _ CCAD_ reçoit un paiement **P**, une fraction du paiement reçu est versée dans la réserve de trésorerie. Nous appellerons **D** (pour **D**istribution) le pourcentage des revenus versés dans la réserve de trésorerie et **d** la fraction correspondante des revenus (d=P*D). Le montant total `d` est sauvegardé dans la réserve de trésorerie du _CCAD_, augmentant ainsi la valeur des _FAIRs_.
 
@@ -464,7 +464,7 @@ De cette façon, le _CCAD_ est rendu totalement invisible pour le client (aucun 
 
 <h5 id="pre-mint">🍯Pool de FAIR pré-émis</h5>
 
-Lors de la création de la _DAT_ (et **seulement** à ce moment-là car une fois créée, la _DAT_ devient immuable), l'organisation peut décider de "pré-miner" pour elle-même et gratuitement un nombre **PM** de _FAIRs_. Cela signifie qu'au lieu que l'offre de _FAIRs_ de la _DAT_ commence à zéro, elle commence à PM.
+Lors de la création du _CCAD_ (et **seulement** à ce moment-là car une fois créée, le _CCAD_ devient immuable), l'organisation peut décider de "pré-miner" pour elle-même et gratuitement un nombre **PM** de _FAIRs_. Cela signifie qu'au lieu que l'offre de _FAIRs_ de la _DAT_ commence à zéro, elle commence à PM.
 
 Le fait de pré-émettre des FAIRs peut souvent avoir beaucoup de sens pour l'organisation, que ce soit pour récompenser ses fondateurs, pour payer ses premiers employés, pour récompenser ses premiers utilisateurs ou pour garantir une réserve de liquidités pour le marché secondaire.
 
@@ -474,42 +474,42 @@ Techniquement parlant, cela signifie que plus le nombre de jetons FAIR pré-min�
 
 <img src="images/Introducing-Continuous10.png" width="300" title="Pre-minted FAIR pool" alt="Pre-minted FAIR pool" />
 
-_Impact des jetons pré-minés, toutes choses égales par ailleurs_.
+_Impact des jetons pré-minés, toutes choses égales par ailleurs_
 
  Ainsi, en tant qu'organisation, vous pouvez avoir de bonnes raisons de pré-miner certains _FAIRs_, mais faites attention car si vous pré-miner trop, vos _FAIRs_ deviendront moins attractifs pour les investisseurs. Une bonne règle consiste à ne pré-miner que les _FAIRs_ nécessaires avant de générer des revenus. Une fois que les revenus commenceront à affluer, l'organisation accumulera naturellement des _FAIRs_, grâce à l'acheminement de ses revenus vers le _CCAD_.
 
 
-<h5 id="summary">📄 Summary</h5>
+<h5 id="summary">📄 Résumé</h5>
 
 
-A _Continuous Organization_ is an organization that issues _FAIR securities_ through a _Continuous Securities Offering_ by funneling part or all of its realized revenues to a specific type of smart-contract called _Decentralized Autonomous Trust_ (_DAT_). These _FAIR securities_ represent a claim on the _DAT_'s present and future cash reserve and allow investors to speculate on the revenue growth of the organization. The organization, its investors and, potentially, its customers interact with the _DAT_ by sending ETH or _FAIRs_ to it:
+Une _Organisation Continue_ est une organisation qui émet des _titres FAIR_ par le biais d'une _Offre Continue de Titres_ en canalisant une partie ou la totalité de ses revenus réalisés vers un type spécifique de smart-contract appelé _Contrat de Contributions Autonome Decentralisé_) (_CCAD_). Ces _titres FAIR_ représentent une créance sur la réserve d'argent actuelle et future du  _CCAD_ et permettent aux investisseurs de spéculer sur la croissance des revenus de l'organisation. L'entreprise, ses investisseurs et, potentiellement, ses clients interagissent avec le _CCAD_ en lui envoyant des ETH ou des _FAIR_ :
 
 <table>
   <tr>
-   <td>Source of cash-flow
+   <td>Source de trésorerie
    </td>
-   <td>What happens at the <em>DAT</em>?
+   <td>Que se passe-t-il au niveau du <em>CCAD</em> ? 
    </td>
   </tr>
   <tr>
    <td>
        <img src="images/Introducing-Continuous11.png" width="250" alt="Investment (buy)" title="Investment (buy)">
-       <p style="text-align:center;"><em>Investment (buy)</em></p>
+       <p style="text-align:center;"><em>Investissement (buy)</em></p>
    </td>
    <td>
-       ▪ The <em>DAT</em> receives ETH from the buying investor<br/>
-       ▪ The <em>DAT</em> mints new <em>FAIRs</em> and send them to the buying investor.<br/>
-       ▪ The sum invested is in part distributed to the beneficiary organization and in part saved in the <em>DAT</em> cash reserve according to a pre-defined immutable function <strong>I</strong> (for <strong>i<em>nvestment</em></strong>).
+       ▪ The <em>DAT</em> reçoit des ETH de l'investisseur acheteur.<br/>
+       ▪ The <em>DAT</em> émet de nouveaux <em>FAIR</em> et les envoie à l'investisseur acheteur..<br/>
+       ▪ La somme investie est en partie distribuée à l'entreprise bénéficiaire et en partie épargnée dans une réserve de trésorerie du <em>DAT</em> selon une fonction immuable prédéfinie. <strong>I</strong> (for <strong>i<em>nvestissement</em></strong>).
    </td>
   </tr>
   <tr>
    <td>
        <img src="images/fair-purchase.png" width="350" alt="FAIRs purchase" title="FAIRs purchase">
-       <p style="text-align:center;"><em>FAIR purchase (buy)</em></p>
+       <p style="text-align:center;"><em>achat de Fair (buy)</em></p>
    </td>
    <td>
-       ▪ the <em>DAT</em> receives ETH **from the beneficiary organization**<br/>
-       ▪ the <em>DAT</em> uses the funds to mint new <em>FAIR</em>s and sends them back to the beneficiary organization.<br/>
+       ▪ le <em>CCAD</em> reçoit des Fairs **de l'entreprise bénéficiaire**.<br/>
+       ▪ le <em>CCAD</em> utilise les fonds pour émettre de nouveaux <em>FAIR</em>s et les renvoie à l'entreprise bénéficiaire.<br/>
        ▪ The funds used to mint the <em>FAIR</em>s are entirely funneled in the <em>DAT</em> cash reserve.
    </td>
   </tr>
